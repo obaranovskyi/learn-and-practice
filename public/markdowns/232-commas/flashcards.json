@@ -1,0 +1,8 @@
+[
+  {"question": "Oxford comma?", "answer": "Comma before 'and' in lists: apples, oranges, and bananas"},
+  {"question": "Comma after introductory element?", "answer": "Yes: However, I disagree."},
+  {"question": "Comma with non-essential info?", "answer": "Yes: My brother, who lives in London, ..."},
+  {"question": "Comma before 'but' joining clauses?", "answer": "Yes: I tried, but I failed."},
+  {"question": "Comma with direct address?", "answer": "Yes: John, can you help?"}
+]
+

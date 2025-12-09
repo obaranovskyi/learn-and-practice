@@ -1,0 +1,8 @@
+[
+  {"question": "Capitalize seasons?", "answer": "No: spring, summer, fall, winter"},
+  {"question": "Capitalize languages?", "answer": "Yes: English, French, Japanese"},
+  {"question": "Capitalize 'president'?", "answer": "Before name: President Biden; not alone: the president"},
+  {"question": "Capitalize days/months?", "answer": "Yes: Monday, January"},
+  {"question": "Capitalize directions?", "answer": "Only as regions: the North (not: go north)"}
+]
+

@@ -1,0 +1,8 @@
+[
+  {"question": "What is ellipsis?", "answer": "Omitting words understood from context"},
+  {"question": "Why use ellipsis?", "answer": "To avoid repetition and sound more natural"},
+  {"question": "What's omitted: 'She can sing and dance'?", "answer": "'she can' (She can sing and [she can] dance)"},
+  {"question": "'I think so' - what's omitted?", "answer": "'that it's true' or the statement being agreed with"},
+  {"question": "Ellipsis after 'to': 'I'd like to'?", "answer": "Main verb omitted: 'I'd like to [go/help/etc.]'"}
+]
+

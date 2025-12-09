@@ -1,0 +1,8 @@
+[
+  {"question": "'some' is used in?", "answer": "Positive sentences, offers, requests"},
+  {"question": "'any' is used in?", "answer": "Negatives, questions, 'any = it doesn't matter which'"},
+  {"question": "'no' vs 'none'?", "answer": "no + noun (determiner); none alone (pronoun)"},
+  {"question": "Why not 'I don't have no money'?", "answer": "Double negative - use 'any' or remove 'don't'"},
+  {"question": "'any' in positive: 'Any color is fine' means?", "answer": "'It doesn't matter which color'"}
+]
+

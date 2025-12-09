@@ -1,0 +1,8 @@
+[
+  {"question": "Question mark for indirect questions?", "answer": "No: I wonder what time it is."},
+  {"question": "Tag questions need ?", "answer": "Yes: You're coming, aren't you?"},
+  {"question": "? inside or outside quotes?", "answer": "Depends on what's being questioned"},
+  {"question": "Series of questions?", "answer": "Each gets ?: What? When? How?"},
+  {"question": "(?) in dates?", "answer": "Shows uncertainty: born 1920(?)"}
+]
+

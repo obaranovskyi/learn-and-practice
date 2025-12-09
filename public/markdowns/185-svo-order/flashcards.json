@@ -1,0 +1,8 @@
+[
+  {"question": "What is SVO?", "answer": "Subject-Verb-Object (basic English word order)"},
+  {"question": "Order for adverbs of manner, place, time?", "answer": "Manner → Place → Time"},
+  {"question": "What changes in questions?", "answer": "Word order: SVO → VSO or Aux-S-V"},
+  {"question": "Ditransitive verb pattern?", "answer": "S + V + O + O (She gave me a gift)"},
+  {"question": "In 'She reads books' - what is 'books'?", "answer": "Object (O)"}
+]
+

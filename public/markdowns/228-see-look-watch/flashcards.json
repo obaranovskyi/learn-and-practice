@@ -1,0 +1,8 @@
+[
+  {"question": "SEE is?", "answer": "Passive/automatic perception"},
+  {"question": "LOOK is?", "answer": "Active, brief, intentional (look at)"},
+  {"question": "WATCH is?", "answer": "Active, extended observation of movement"},
+  {"question": "___ TV", "answer": "WATCH TV"},
+  {"question": "___ a doctor", "answer": "SEE a doctor"}
+]
+

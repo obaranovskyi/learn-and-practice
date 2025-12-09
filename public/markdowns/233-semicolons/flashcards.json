@@ -1,0 +1,8 @@
+[
+  {"question": "Main semicolon use?", "answer": "Connect related independent clauses"},
+  {"question": "Semicolon before 'however'?", "answer": "Yes: I tried; however, I failed."},
+  {"question": "When use semicolon in lists?", "answer": "When items contain commas"},
+  {"question": "Semicolon before 'because'?", "answer": "No - because starts dependent clause"},
+  {"question": "Semicolon test?", "answer": "If period works, semicolon usually works"}
+]
+

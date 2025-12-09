@@ -1,0 +1,8 @@
+[
+  {"question": "What is a simple sentence?", "answer": "One independent clause with subject + verb"},
+  {"question": "'John and Mary sing' - simple?", "answer": "Yes (compound subject, one clause)"},
+  {"question": "Required elements of simple sentence?", "answer": "Subject and verb"},
+  {"question": "'She sings and dances' - simple?", "answer": "Yes (compound verb, one clause)"},
+  {"question": "What makes it NOT simple?", "answer": "More than one clause"}
+]
+

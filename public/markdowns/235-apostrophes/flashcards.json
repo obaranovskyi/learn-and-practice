@@ -1,0 +1,8 @@
+[
+  {"question": "Singular possession?", "answer": "Add 's: the dog's bone"},
+  {"question": "Plural possession (ends in s)?", "answer": "Add ': the dogs' bones"},
+  {"question": "It's vs its?", "answer": "It's = it is; its = possession"},
+  {"question": "They're vs their?", "answer": "They're = they are; their = possession"},
+  {"question": "Apostrophe for plurals?", "answer": "No: apples (not apple's)"}
+]
+

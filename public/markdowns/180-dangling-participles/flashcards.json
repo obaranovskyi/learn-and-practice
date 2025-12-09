@@ -1,0 +1,8 @@
+[
+  {"question": "What is a dangling participle?", "answer": "When the participle doesn't logically connect to the subject"},
+  {"question": "Rule for participle clauses?", "answer": "Same subject in participle clause and main clause"},
+  {"question": "Fix: 'Walking home, the rain started'", "answer": "Walking home, I got caught in the rain"},
+  {"question": "Quick test for dangling participles?", "answer": "Ask 'Who is [verb]-ing?' - answer must be the subject"},
+  {"question": "Fix: 'Being a holiday, shops closed'", "answer": "'It being a holiday...' or 'Since it was a holiday...'"}
+]
+

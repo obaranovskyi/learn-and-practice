@@ -1,0 +1,8 @@
+[
+  {"question": "Period vs full stop?", "answer": "Same: period (AmE), full stop (BrE)"},
+  {"question": "Period with abbreviations?", "answer": "Yes: Dr., Mr., etc."},
+  {"question": "Period after questions?", "answer": "No - use question mark"},
+  {"question": "AmE: period with quotes?", "answer": "Inside: She said, \"Hello.\""},
+  {"question": "BrE: period with quotes?", "answer": "Outside (usually): She said, \"Hello\"."}
+]
+

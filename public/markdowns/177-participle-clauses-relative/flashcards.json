@@ -1,0 +1,8 @@
+[
+  {"question": "Present participle replaces relative clause with?", "answer": "Active meaning: 'who is standing' → 'standing'"},
+  {"question": "Past participle replaces relative clause with?", "answer": "Passive meaning: 'which was built' → 'built'"},
+  {"question": "Reduce: 'people who live here'", "answer": "people living here"},
+  {"question": "Reduce: 'a letter written in English'", "answer": "Already reduced (from 'which was written')"},
+  {"question": "Can 'the book I read' be reduced?", "answer": "No - pronoun is object, not subject"}
+]
+
