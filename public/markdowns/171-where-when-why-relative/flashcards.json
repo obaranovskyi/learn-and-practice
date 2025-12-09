@@ -1,0 +1,8 @@
+[
+  {"question": "'where' = ?", "answer": "in which / at which (place)"},
+  {"question": "'when' = ?", "answer": "on which / at which (time)"},
+  {"question": "'why' = ?", "answer": "for which (reason)"},
+  {"question": "Can 'why' be omitted?", "answer": "Yes: 'the reason (why) I left'"},
+  {"question": "How to express 'how' relatively?", "answer": "Use 'the way': 'the way she talks'"}
+]
+

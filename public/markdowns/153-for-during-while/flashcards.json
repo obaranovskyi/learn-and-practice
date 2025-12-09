@@ -1,0 +1,8 @@
+[
+  {"question": "'for' is followed by?", "answer": "Time period (for 3 hours, for a week)"},
+  {"question": "'during' is followed by?", "answer": "Noun/event (during the meeting, during summer)"},
+  {"question": "'while' is followed by?", "answer": "Clause with subject + verb (while I was sleeping)"},
+  {"question": "What's wrong with 'during 2 hours'?", "answer": "Use 'for' with time periods: 'for 2 hours'"},
+  {"question": "'for' answers what question?", "answer": "'How long?' - duration"}
+]
+

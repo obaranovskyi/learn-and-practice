@@ -1,0 +1,8 @@
+[
+  {"question": "What is attributive position?", "answer": "Before the noun: 'a tall man'"},
+  {"question": "What is predicative position?", "answer": "After a linking verb: 'The man is tall'"},
+  {"question": "Can 'afraid' be attributive?", "answer": "No - only predicative: 'She is afraid' (not 'an afraid girl')"},
+  {"question": "Can 'main' be predicative?", "answer": "No - only attributive: 'the main reason' (not 'the reason is main')"},
+  {"question": "'an old friend' vs 'my friend is old' - difference?", "answer": "old friend = longtime friend; friend is old = elderly"}
+]
+

@@ -1,0 +1,8 @@
+[
+  {"question": "'by' focuses on?", "answer": "Deadline/completion point - 'not later than'"},
+  {"question": "'until' focuses on?", "answer": "Duration/continuous action - 'up to that time'"},
+  {"question": "'Finish ___ Friday' (deadline)?", "answer": "by"},
+  {"question": "'Wait ___ I return' (duration)?", "answer": "until"},
+  {"question": "'not until' means?", "answer": "only when: 'I won't go until you're ready'"}
+]
+

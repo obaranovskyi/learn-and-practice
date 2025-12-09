@@ -1,0 +1,8 @@
+[
+  {"question": "What's the adjective order mnemonic?", "answer": "OSASCOMP: Opinion, Size, Age, Shape, Color, Origin, Material, Purpose"},
+  {"question": "Order: 'old / beautiful / house'", "answer": "beautiful old house (opinion before age)"},
+  {"question": "Where do purpose adjectives go?", "answer": "Last, right before the noun: 'sleeping bag'"},
+  {"question": "Order: 'wooden / big / round / table'", "answer": "big round wooden table (size, shape, material)"},
+  {"question": "When do we use commas between adjectives?", "answer": "Between same-category adjectives: 'a cold, windy day'"}
+]
+

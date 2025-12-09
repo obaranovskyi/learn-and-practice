@@ -1,0 +1,8 @@
+[
+  {"question": "Which is strongest for reason: because, as, or since?", "answer": "because (directly answers 'why')"},
+  {"question": "'since' for reason implies?", "answer": "The reason is already known to the listener"},
+  {"question": "Can 'because' answer 'why' alone?", "answer": "Yes: 'Why?' 'Because!'"},
+  {"question": "Other meaning of 'as'?", "answer": "'while' (time): 'As I was eating...'"},
+  {"question": "Other meaning of 'since'?", "answer": "'from that time': 'since 2010'"}
+]
+

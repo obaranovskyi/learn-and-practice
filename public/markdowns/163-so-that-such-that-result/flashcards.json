@@ -1,0 +1,8 @@
+[
+  {"question": "'so' is followed by?", "answer": "adjective/adverb: 'so cold', 'so quickly'"},
+  {"question": "'such' is followed by?", "answer": "noun (with adjective): 'such a nice day'"},
+  {"question": "'so many' or 'such many'?", "answer": "so many (+ countable plural)"},
+  {"question": "'___ a beautiful house'?", "answer": "such (before a/an + noun)"},
+  {"question": "'___ beautiful'?", "answer": "so (before adjective alone)"}
+]
+
