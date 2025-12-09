@@ -1,14 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
-import { RotateCcw, Shuffle, ChevronLeft, ChevronRight, Eye, EyeOff, Check } from 'lucide-react'
+import { RotateCcw, Shuffle, Check, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
-
-const DIFFICULTY_CONFIG = {
-  again: { label: 'Again', color: 'bg-red-500 hover:bg-red-600', multiplier: 0 },
-  hard: { label: 'Hard', color: 'bg-orange-500 hover:bg-orange-600', multiplier: 1 },
-  good: { label: 'Good', color: 'bg-green-500 hover:bg-green-600', multiplier: 2 },
-  easy: { label: 'Easy', color: 'bg-blue-500 hover:bg-blue-600', multiplier: 3 },
-}
 
 function shuffleArray(array) {
   const shuffled = [...array]
@@ -20,101 +13,83 @@ function shuffleArray(array) {
 }
 
 export default function Flashcard({ cards: initialCards }) {
-  const [cards, setCards] = useState([])
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const [deck, setDeck] = useState([])
   const [showAnswer, setShowAnswer] = useState(false)
-  const [completed, setCompleted] = useState([])
+  const [completed, setCompleted] = useState(0)
   const [isFlipping, setIsFlipping] = useState(false)
 
   useEffect(() => {
     if (initialCards?.length) {
-      setCards(initialCards)
-      setCurrentIndex(0)
+      setDeck([...initialCards])
       setShowAnswer(false)
-      setCompleted([])
+      setCompleted(0)
     }
   }, [initialCards])
 
-  const currentCard = cards[currentIndex]
-  const remainingCards = cards.length - completed.length
-  const progress = cards.length > 0 ? ((completed.length / cards.length) * 100).toFixed(0) : 0
+  const currentCard = deck[0]
+  const total = initialCards?.length || 0
+  const progress = total > 0 ? ((completed / total) * 100).toFixed(0) : 0
 
-  const flipCard = useCallback(() => {
-    setIsFlipping(true)
-    setTimeout(() => {
-      setShowAnswer(prev => !prev)
-      setIsFlipping(false)
-    }, 150)
-  }, [])
-
-  const handleDifficulty = useCallback((difficulty) => {
-    if (!currentCard) return
-
-    if (difficulty !== 'again') {
-      setCompleted(prev => [...prev, currentCard.id])
+  const revealAnswer = useCallback(() => {
+    if (!showAnswer) {
+      setIsFlipping(true)
+      setTimeout(() => {
+        setShowAnswer(true)
+        setIsFlipping(false)
+      }, 150)
     }
+  }, [showAnswer])
 
-    setShowAnswer(false)
+  const markCorrect = useCallback(() => {
+    if (!currentCard || deck.length === 0) return
     
-    if (currentIndex < cards.length - 1) {
-      setCurrentIndex(prev => prev + 1)
-    } else if (difficulty === 'again') {
-      setCurrentIndex(0)
-    }
-  }, [currentCard, currentIndex, cards.length])
+    // Remove card from deck (it's done)
+    setDeck(prev => prev.slice(1))
+    setCompleted(prev => prev + 1)
+    setShowAnswer(false)
+  }, [currentCard, deck.length])
 
-  const goToNext = useCallback(() => {
-    if (currentIndex < cards.length - 1) {
-      setShowAnswer(false)
-      setCurrentIndex(prev => prev + 1)
-    }
-  }, [currentIndex, cards.length])
-
-  const goToPrev = useCallback(() => {
-    if (currentIndex > 0) {
-      setShowAnswer(false)
-      setCurrentIndex(prev => prev - 1)
-    }
-  }, [currentIndex])
+  const markWrong = useCallback(() => {
+    if (!currentCard || deck.length <= 1) return
+    
+    // Move card to middle of remaining deck
+    const [first, ...rest] = deck
+    const middleIndex = Math.floor(rest.length / 2)
+    const newDeck = [...rest.slice(0, middleIndex), first, ...rest.slice(middleIndex)]
+    setDeck(newDeck)
+    setShowAnswer(false)
+  }, [currentCard, deck])
 
   const handleShuffle = useCallback(() => {
-    setCards(shuffleArray(cards))
-    setCurrentIndex(0)
+    setDeck(shuffleArray(deck))
     setShowAnswer(false)
-  }, [cards])
+  }, [deck])
 
   const handleReset = useCallback(() => {
-    setCards(initialCards)
-    setCurrentIndex(0)
+    setDeck([...initialCards])
     setShowAnswer(false)
-    setCompleted([])
+    setCompleted(0)
   }, [initialCards])
 
   useEffect(() => {
     const handleKeyDown = (e) => {
-      if (e.key === ' ' || e.key === 'Enter') {
+      if (e.key === 'Enter') {
         e.preventDefault()
-        flipCard()
-      } else if (e.key === 'ArrowRight' && showAnswer) {
-        handleDifficulty('good')
-      } else if (e.key === 'ArrowLeft' && showAnswer) {
-        handleDifficulty('again')
-      } else if (e.key === '1' && showAnswer) {
-        handleDifficulty('again')
-      } else if (e.key === '2' && showAnswer) {
-        handleDifficulty('hard')
-      } else if (e.key === '3' && showAnswer) {
-        handleDifficulty('good')
-      } else if (e.key === '4' && showAnswer) {
-        handleDifficulty('easy')
+        revealAnswer()
+      } else if (e.key === 'y' || e.key === 'Y') {
+        e.preventDefault()
+        markCorrect()
+      } else if (e.key === 'n' || e.key === 'N') {
+        e.preventDefault()
+        markWrong()
       }
     }
 
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [flipCard, handleDifficulty, showAnswer])
+  }, [revealAnswer, markCorrect, markWrong])
 
-  if (!cards.length) {
+  if (!initialCards?.length) {
     return (
       <Card className="text-center py-12">
         <CardContent>
@@ -124,7 +99,7 @@ export default function Flashcard({ cards: initialCards }) {
     )
   }
 
-  if (completed.length === cards.length) {
+  if (deck.length === 0) {
     return (
       <Card className="text-center py-12">
         <CardContent className="space-y-6">
@@ -133,7 +108,7 @@ export default function Flashcard({ cards: initialCards }) {
           </div>
           <div>
             <h3 className="text-2xl font-bold text-foreground mb-2">Congratulations!</h3>
-            <p className="text-muted-foreground">You've completed all {cards.length} flashcards.</p>
+            <p className="text-muted-foreground">You've completed all {total} flashcards.</p>
           </div>
           <Button onClick={handleReset} className="gap-2">
             <RotateCcw className="w-4 h-4" />
@@ -149,8 +124,8 @@ export default function Flashcard({ cards: initialCards }) {
       {/* Progress bar */}
       <div className="space-y-2">
         <div className="flex justify-between text-sm text-muted-foreground">
-          <span>Card {currentIndex + 1} of {cards.length}</span>
-          <span>{progress}% complete ({completed.length}/{cards.length})</span>
+          <span>{deck.length} cards remaining</span>
+          <span>{progress}% complete ({completed}/{total})</span>
         </div>
         <div className="h-2 bg-muted rounded-full overflow-hidden">
           <div 
@@ -173,90 +148,52 @@ export default function Flashcard({ cards: initialCards }) {
       </div>
 
       {/* Flashcard */}
-      <div 
-        className="perspective-1000 cursor-pointer"
-        onClick={flipCard}
+      <Card 
+        className={`min-h-[300px] cursor-pointer transition-transform duration-300 ${isFlipping ? 'scale-95' : 'scale-100'}`}
+        onClick={revealAnswer}
       >
-        <Card 
-          className={`min-h-[300px] transition-transform duration-300 ${isFlipping ? 'scale-95' : 'scale-100'}`}
-        >
-          <CardContent className="p-8 flex flex-col items-center justify-center min-h-[300px]">
-            <div className="absolute top-4 right-4">
-              {showAnswer ? (
-                <EyeOff className="w-5 h-5 text-muted-foreground" />
-              ) : (
-                <Eye className="w-5 h-5 text-muted-foreground" />
-              )}
-            </div>
-            
-            <div className="text-center space-y-4">
-              <span className="text-xs font-medium text-muted-foreground uppercase tracking-wider">
-                {showAnswer ? 'Answer' : 'Question'}
-              </span>
-              <p className="text-xl md:text-2xl font-medium text-foreground leading-relaxed">
-                {showAnswer ? currentCard.answer : currentCard.question}
-              </p>
-            </div>
-
-            {!showAnswer && (
-              <p className="absolute bottom-4 text-sm text-muted-foreground">
-                Click or press Space to reveal answer
-              </p>
-            )}
-          </CardContent>
-        </Card>
-      </div>
-
-      {/* Navigation */}
-      <div className="flex justify-between items-center">
-        <Button
-          variant="ghost"
-          onClick={goToPrev}
-          disabled={currentIndex === 0}
-          className="gap-1"
-        >
-          <ChevronLeft className="w-4 h-4" />
-          Previous
-        </Button>
-        
-        <span className="text-sm text-muted-foreground">
-          {remainingCards} remaining
-        </span>
-
-        <Button
-          variant="ghost"
-          onClick={goToNext}
-          disabled={currentIndex === cards.length - 1}
-          className="gap-1"
-        >
-          Next
-          <ChevronRight className="w-4 h-4" />
-        </Button>
-      </div>
-
-      {/* Difficulty buttons */}
-      {showAnswer && (
-        <div className="space-y-3">
-          <p className="text-center text-sm text-muted-foreground">
-            How well did you know this?
-          </p>
-          <div className="grid grid-cols-4 gap-2">
-            {Object.entries(DIFFICULTY_CONFIG).map(([key, config]) => (
-              <Button
-                key={key}
-                onClick={() => handleDifficulty(key)}
-                className={`${config.color} text-white`}
-              >
-                {config.label}
-              </Button>
-            ))}
+        <CardContent className="p-8 flex flex-col items-center justify-center min-h-[300px] relative">
+          <div className="text-center space-y-4">
+            <span className="text-xs font-medium text-muted-foreground uppercase tracking-wider">
+              {showAnswer ? 'Answer' : 'Question'}
+            </span>
+            <p className="text-xl md:text-2xl font-medium text-foreground leading-relaxed">
+              {showAnswer ? currentCard.answer : currentCard.question}
+            </p>
           </div>
-          <p className="text-center text-xs text-muted-foreground">
-            Keyboard: 1-4 or ←/→ arrows
-          </p>
-        </div>
-      )}
+
+          {!showAnswer && (
+            <p className="absolute bottom-4 text-sm text-muted-foreground">
+              Press Enter to reveal answer
+            </p>
+          )}
+        </CardContent>
+      </Card>
+
+      {/* Action buttons */}
+      <div className="grid grid-cols-2 gap-4">
+        <Button
+          variant="outline"
+          onClick={markWrong}
+          className="h-14 gap-2 border-red-200 hover:bg-red-50 hover:border-red-300"
+        >
+          <X className="w-5 h-5 text-red-500" />
+          <span>Don't Know (N)</span>
+        </Button>
+        <Button
+          variant="outline"
+          onClick={markCorrect}
+          className="h-14 gap-2 border-green-200 hover:bg-green-50 hover:border-green-300"
+        >
+          <Check className="w-5 h-5 text-green-500" />
+          <span>Know It (Y)</span>
+        </Button>
+      </div>
+
+      {/* Keyboard hints */}
+      <p className="text-center text-xs text-muted-foreground">
+        Enter = show answer • Y = know it • N = don't know
+      </p>
     </div>
   )
 }
-
