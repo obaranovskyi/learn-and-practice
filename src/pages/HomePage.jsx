@@ -1,8 +1,9 @@
 import { useEffect, useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { BookOpen, ChevronRight, Sparkles, ChevronDown } from 'lucide-react'
+import { BookOpen, ChevronRight, Sparkles, ChevronDown, ChevronsUpDown } from 'lucide-react'
 import { loadManifest } from '@/lib/manifestLoader'
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
+import { Button } from '@/components/ui/button'
 
 function HomePage() {
   const [topics, setTopics] = useState([])
@@ -40,6 +41,18 @@ function HomePage() {
       ...prev,
       [cat]: !prev[cat]
     }))
+  }
+
+  const expandAll = () => {
+    setCollapsedCategories({})
+  }
+
+  const collapseAll = () => {
+    const allCollapsed = {}
+    Object.keys(groupedTopics).forEach(cat => {
+      allCollapsed[cat] = true
+    })
+    setCollapsedCategories(allCollapsed)
   }
 
   if (loading) {
@@ -87,6 +100,18 @@ function HomePage() {
       </header>
 
       <main className="container mx-auto px-4 py-6 space-y-4">
+        {/* Expand/Collapse buttons */}
+        <div className="flex justify-end gap-2">
+          <Button variant="outline" size="sm" onClick={expandAll}>
+            <ChevronsUpDown className="w-4 h-4 mr-1" />
+            Expand All
+          </Button>
+          <Button variant="outline" size="sm" onClick={collapseAll}>
+            <ChevronsUpDown className="w-4 h-4 mr-1 rotate-90" />
+            Collapse All
+          </Button>
+        </div>
+
         {categories.map((category) => {
           const catData = groupedTopics[category]
           const isCollapsed = collapsedCategories[category]
@@ -124,28 +149,22 @@ function HomePage() {
                           </div>
                         )}
                         
-                        {/* Topics Grid */}
-                        <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0">
-                          {[0, 1].map(colIndex => (
-                            <div key={colIndex} className={`divide-y ${colIndex === 0 ? 'md:border-r' : ''}`}>
-                              {subcatTopics
-                                .filter((_, i) => i % 2 === colIndex)
-                                .map((topic) => (
-                                  <Link 
-                                    key={topic.id} 
-                                    to={`/topic/${topic.id}`}
-                                    className="flex items-center gap-3 px-4 py-2.5 hover:bg-accent/50 transition-colors group"
-                                  >
-                                    <span className="text-xs font-mono text-muted-foreground w-7 shrink-0">
-                                      {String(topic.globalIndex + 1).padStart(2, '0')}
-                                    </span>
-                                    <span className="flex-1 text-sm group-hover:text-primary transition-colors truncate">
-                                      {topic.title}
-                                    </span>
-                                    <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
-                                  </Link>
-                                ))}
-                            </div>
+                        {/* Topics List */}
+                        <div className="divide-y">
+                          {subcatTopics.map((topic) => (
+                            <Link 
+                              key={topic.id} 
+                              to={`/topic/${topic.id}`}
+                              className="flex items-center gap-3 px-4 py-2.5 hover:bg-accent/50 transition-colors group"
+                            >
+                              <span className="text-xs font-mono text-muted-foreground w-7 shrink-0">
+                                {String(topic.globalIndex + 1).padStart(2, '0')}
+                              </span>
+                              <span className="flex-1 text-sm group-hover:text-primary transition-colors">
+                                {topic.title}
+                              </span>
+                              <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
+                            </Link>
                           ))}
                         </div>
                       </div>
