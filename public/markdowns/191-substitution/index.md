@@ -43,3 +43,4 @@ Substitution replaces words with **substitute forms** to avoid repetition.
 | *She can [swim].* | *I like this one.* |
 | Nothing visible | Substitute word visible |
 
+

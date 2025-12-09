@@ -1,0 +1,8 @@
+[
+  {"question": "Falling intonation for?", "answer": "Statements, Wh-questions, commands"},
+  {"question": "Rising intonation for?", "answer": "Yes/No questions, checking, uncertainty"},
+  {"question": "List intonation?", "answer": "Rising on each item, falling on last"},
+  {"question": "Question tag + rising?", "answer": "Seeking real information"},
+  {"question": "Question tag + falling?", "answer": "Expecting agreement"}
+]
+

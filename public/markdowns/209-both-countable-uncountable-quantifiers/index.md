@@ -49,3 +49,4 @@ These quantifiers work with **both** noun types.
 | no, none | no cars, no money |
 | all, most | all students, all information |
 
+

@@ -44,3 +44,4 @@ Ignore phrases between subject and verb:
 - ✗ *The news are bad.*
 - ✓ *The news **is** bad.*
 
+

@@ -45,3 +45,4 @@ The period (AmE) or full stop (BrE) ends declarative sentences.
 **British**: Period outside (unless part of quote)
 - She said, "I'm leaving".
 
+

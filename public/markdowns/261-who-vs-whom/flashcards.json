@@ -1,0 +1,8 @@
+[
+  {"question": "Who = ?", "answer": "Subject (like 'he'): Who called?"},
+  {"question": "Whom = ?", "answer": "Object (like 'him'): Whom did you see?"},
+  {"question": "He/Him test?", "answer": "He → who, Him → whom"},
+  {"question": "'To ___ it may concern'", "answer": "whom (formal, after preposition)"},
+  {"question": "Is 'whom' common today?", "answer": "Less common, often sounds formal"}
+]
+

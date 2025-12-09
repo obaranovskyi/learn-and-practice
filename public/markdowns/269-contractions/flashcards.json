@@ -1,0 +1,8 @@
+[
+  {"question": "won't = ?", "answer": "will not"},
+  {"question": "he's can mean?", "answer": "he is OR he has (context)"},
+  {"question": "I'd can mean?", "answer": "I would OR I had (context)"},
+  {"question": "When avoid contractions?", "answer": "Formal writing, emphasis, end of sentences"},
+  {"question": "can't = ?", "answer": "cannot"}
+]
+

@@ -10,3 +10,4 @@ Fill in all, both, whole, every, or each:
 
 **Answers:** 1. Both 2. whole 3. Every/Each 4. every 5. Each
 
+

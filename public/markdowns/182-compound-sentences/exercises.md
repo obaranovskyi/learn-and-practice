@@ -10,3 +10,4 @@ Join with appropriate punctuation:
 
 **Answers:** 1. He studied hard, so he passed. 2. It was late, so we left. 3. She's talented; therefore, she'll succeed. 4. I wanted to go, but I was too tired. 5. Hurry up, or you'll miss the bus.
 
+

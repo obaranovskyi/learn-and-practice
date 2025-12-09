@@ -10,3 +10,4 @@ Rewrite with inversion:
 
 **Answers:** 1. Never have I seen such a thing. 2. Rarely does she complain. 3. Had I known, I would have called. 4. So am I. 5. Seldom does he go out.
 
+

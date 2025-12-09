@@ -2468,5 +2468,405 @@
     "index": "247-summarizing/index.md",
     "exercises": "247-summarizing/exercises.md",
     "flashcards": "247-summarizing/flashcards.json"
+  },
+  {
+    "id": "248-subjunctive-mood",
+    "title": "Subjunctive Mood",
+    "description": "I suggest that he go...",
+    "category": "Advanced Structures",
+    "subcategory": "Special Forms",
+    "index": "248-subjunctive-mood/index.md",
+    "exercises": "248-subjunctive-mood/exercises.md",
+    "flashcards": "248-subjunctive-mood/flashcards.json"
+  },
+  {
+    "id": "249-inversion-negative-adverbials",
+    "title": "Inversion After Negative Adverbials",
+    "description": "Never have I seen...",
+    "category": "Advanced Structures",
+    "subcategory": "Word Order",
+    "index": "249-inversion-negative-adverbials/index.md",
+    "exercises": "249-inversion-negative-adverbials/exercises.md",
+    "flashcards": "249-inversion-negative-adverbials/flashcards.json"
+  },
+  {
+    "id": "250-emphatic-structures",
+    "title": "Emphatic Structures",
+    "description": "It was John who...",
+    "category": "Advanced Structures",
+    "subcategory": "Emphasis",
+    "index": "250-emphatic-structures/index.md",
+    "exercises": "250-emphatic-structures/exercises.md",
+    "flashcards": "250-emphatic-structures/flashcards.json"
+  },
+  {
+    "id": "251-nominal-that-clauses",
+    "title": "Nominal That-Clauses",
+    "description": "That-clauses as noun phrases",
+    "category": "Advanced Structures",
+    "subcategory": "Clauses",
+    "index": "251-nominal-that-clauses/index.md",
+    "exercises": "251-nominal-that-clauses/exercises.md",
+    "flashcards": "251-nominal-that-clauses/flashcards.json"
+  },
+  {
+    "id": "252-extraposition",
+    "title": "Extraposition",
+    "description": "It is important that...",
+    "category": "Advanced Structures",
+    "subcategory": "Sentence Structure",
+    "index": "252-extraposition/index.md",
+    "exercises": "252-extraposition/exercises.md",
+    "flashcards": "252-extraposition/flashcards.json"
+  },
+  {
+    "id": "253-apposition",
+    "title": "Apposition",
+    "description": "Renaming or explaining nouns",
+    "category": "Advanced Structures",
+    "subcategory": "Noun Phrases",
+    "index": "253-apposition/index.md",
+    "exercises": "253-apposition/exercises.md",
+    "flashcards": "253-apposition/flashcards.json"
+  },
+  {
+    "id": "254-absolute-constructions",
+    "title": "Absolute Constructions",
+    "description": "Independent participial phrases",
+    "category": "Advanced Structures",
+    "subcategory": "Clauses",
+    "index": "254-absolute-constructions/index.md",
+    "exercises": "254-absolute-constructions/exercises.md",
+    "flashcards": "254-absolute-constructions/flashcards.json"
+  },
+  {
+    "id": "255-anticipatory-it",
+    "title": "Anticipatory It",
+    "description": "Using 'it' as placeholder subject/object",
+    "category": "Advanced Structures",
+    "subcategory": "Sentence Structure",
+    "index": "255-anticipatory-it/index.md",
+    "exercises": "255-anticipatory-it/exercises.md",
+    "flashcards": "255-anticipatory-it/flashcards.json"
+  },
+  {
+    "id": "256-its-vs-its",
+    "title": "Its vs It's",
+    "description": "Possession vs contraction",
+    "category": "Common Errors & Confusions",
+    "subcategory": "Homophones",
+    "index": "256-its-vs-its/index.md",
+    "exercises": "256-its-vs-its/exercises.md",
+    "flashcards": "256-its-vs-its/flashcards.json"
+  },
+  {
+    "id": "257-your-vs-youre",
+    "title": "Your vs You're",
+    "description": "Possession vs contraction",
+    "category": "Common Errors & Confusions",
+    "subcategory": "Homophones",
+    "index": "257-your-vs-youre/index.md",
+    "exercises": "257-your-vs-youre/exercises.md",
+    "flashcards": "257-your-vs-youre/flashcards.json"
+  },
+  {
+    "id": "258-their-there-theyre",
+    "title": "Their vs There vs They're",
+    "description": "Three commonly confused words",
+    "category": "Common Errors & Confusions",
+    "subcategory": "Homophones",
+    "index": "258-their-there-theyre/index.md",
+    "exercises": "258-their-there-theyre/exercises.md",
+    "flashcards": "258-their-there-theyre/flashcards.json"
+  },
+  {
+    "id": "259-then-vs-than",
+    "title": "Then vs Than",
+    "description": "Time vs comparison",
+    "category": "Common Errors & Confusions",
+    "subcategory": "Similar Words",
+    "index": "259-then-vs-than/index.md",
+    "exercises": "259-then-vs-than/exercises.md",
+    "flashcards": "259-then-vs-than/flashcards.json"
+  },
+  {
+    "id": "260-affect-vs-effect",
+    "title": "Affect vs Effect",
+    "description": "Verb vs noun distinction",
+    "category": "Common Errors & Confusions",
+    "subcategory": "Similar Words",
+    "index": "260-affect-vs-effect/index.md",
+    "exercises": "260-affect-vs-effect/exercises.md",
+    "flashcards": "260-affect-vs-effect/flashcards.json"
+  },
+  {
+    "id": "261-who-vs-whom",
+    "title": "Who vs Whom",
+    "description": "Subject vs object pronouns",
+    "category": "Common Errors & Confusions",
+    "subcategory": "Pronouns",
+    "index": "261-who-vs-whom/index.md",
+    "exercises": "261-who-vs-whom/exercises.md",
+    "flashcards": "261-who-vs-whom/flashcards.json"
+  },
+  {
+    "id": "262-lay-vs-lie",
+    "title": "Lay vs Lie",
+    "description": "Transitive vs intransitive verbs",
+    "category": "Common Errors & Confusions",
+    "subcategory": "Verbs",
+    "index": "262-lay-vs-lie/index.md",
+    "exercises": "262-lay-vs-lie/exercises.md",
+    "flashcards": "262-lay-vs-lie/flashcards.json"
+  },
+  {
+    "id": "263-bring-vs-take",
+    "title": "Bring vs Take",
+    "description": "Direction of movement",
+    "category": "Common Errors & Confusions",
+    "subcategory": "Verbs",
+    "index": "263-bring-vs-take/index.md",
+    "exercises": "263-bring-vs-take/exercises.md",
+    "flashcards": "263-bring-vs-take/flashcards.json"
+  },
+  {
+    "id": "264-borrow-vs-lend",
+    "title": "Borrow vs Lend",
+    "description": "Receive vs give temporarily",
+    "category": "Common Errors & Confusions",
+    "subcategory": "Verbs",
+    "index": "264-borrow-vs-lend/index.md",
+    "exercises": "264-borrow-vs-lend/exercises.md",
+    "flashcards": "264-borrow-vs-lend/flashcards.json"
+  },
+  {
+    "id": "265-each-other-one-another",
+    "title": "Each Other vs One Another",
+    "description": "Reciprocal pronouns",
+    "category": "Common Errors & Confusions",
+    "subcategory": "Pronouns",
+    "index": "265-each-other-one-another/index.md",
+    "exercises": "265-each-other-one-another/exercises.md",
+    "flashcards": "265-each-other-one-another/flashcards.json"
+  },
+  {
+    "id": "266-fewer-vs-less",
+    "title": "Fewer vs Less",
+    "description": "Countable vs uncountable",
+    "category": "Common Errors & Confusions",
+    "subcategory": "Quantifiers",
+    "index": "266-fewer-vs-less/index.md",
+    "exercises": "266-fewer-vs-less/exercises.md",
+    "flashcards": "266-fewer-vs-less/flashcards.json"
+  },
+  {
+    "id": "267-farther-vs-further",
+    "title": "Farther vs Further",
+    "description": "Physical vs figurative distance",
+    "category": "Common Errors & Confusions",
+    "subcategory": "Similar Words",
+    "index": "267-farther-vs-further/index.md",
+    "exercises": "267-farther-vs-further/exercises.md",
+    "flashcards": "267-farther-vs-further/flashcards.json"
+  },
+  {
+    "id": "268-like-vs-as",
+    "title": "Like vs As",
+    "description": "Comparison and function",
+    "category": "Common Errors & Confusions",
+    "subcategory": "Prepositions & Conjunctions",
+    "index": "268-like-vs-as/index.md",
+    "exercises": "268-like-vs-as/exercises.md",
+    "flashcards": "268-like-vs-as/flashcards.json"
+  },
+  {
+    "id": "269-contractions",
+    "title": "Contractions",
+    "description": "I'm, you're, won't, etc.",
+    "category": "Spoken Grammar",
+    "subcategory": "Reduced Forms",
+    "index": "269-contractions/index.md",
+    "exercises": "269-contractions/exercises.md",
+    "flashcards": "269-contractions/flashcards.json"
+  },
+  {
+    "id": "270-question-tags-conversation",
+    "title": "Question Tags in Conversation",
+    "description": "Conversational tag questions",
+    "category": "Spoken Grammar",
+    "subcategory": "Questions",
+    "index": "270-question-tags-conversation/index.md",
+    "exercises": "270-question-tags-conversation/exercises.md",
+    "flashcards": "270-question-tags-conversation/flashcards.json"
+  },
+  {
+    "id": "271-short-answers",
+    "title": "Short Answers",
+    "description": "Yes/No and response patterns",
+    "category": "Spoken Grammar",
+    "subcategory": "Responses",
+    "index": "271-short-answers/index.md",
+    "exercises": "271-short-answers/exercises.md",
+    "flashcards": "271-short-answers/flashcards.json"
+  },
+  {
+    "id": "272-response-tokens",
+    "title": "Response Tokens",
+    "description": "Oh, Really?, I see, etc.",
+    "category": "Spoken Grammar",
+    "subcategory": "Conversation",
+    "index": "272-response-tokens/index.md",
+    "exercises": "272-response-tokens/exercises.md",
+    "flashcards": "272-response-tokens/flashcards.json"
+  },
+  {
+    "id": "273-fillers",
+    "title": "Fillers",
+    "description": "well, you know, I mean, etc.",
+    "category": "Spoken Grammar",
+    "subcategory": "Conversation",
+    "index": "273-fillers/index.md",
+    "exercises": "273-fillers/exercises.md",
+    "flashcards": "273-fillers/flashcards.json"
+  },
+  {
+    "id": "274-vague-language",
+    "title": "Vague Language",
+    "description": "kind of, sort of, etc.",
+    "category": "Spoken Grammar",
+    "subcategory": "Hedging",
+    "index": "274-vague-language/index.md",
+    "exercises": "274-vague-language/exercises.md",
+    "flashcards": "274-vague-language/flashcards.json"
+  },
+  {
+    "id": "275-ellipsis-spoken",
+    "title": "Ellipsis in Spoken English",
+    "description": "Omitting words in conversation",
+    "category": "Spoken Grammar",
+    "subcategory": "Reduction",
+    "index": "275-ellipsis-spoken/index.md",
+    "exercises": "275-ellipsis-spoken/exercises.md",
+    "flashcards": "275-ellipsis-spoken/flashcards.json"
+  },
+  {
+    "id": "276-informal-structures",
+    "title": "Informal Structures",
+    "description": "Casual speech patterns",
+    "category": "Spoken Grammar",
+    "subcategory": "Informal English",
+    "index": "276-informal-structures/index.md",
+    "exercises": "276-informal-structures/exercises.md",
+    "flashcards": "276-informal-structures/flashcards.json"
+  },
+  {
+    "id": "277-register-differences",
+    "title": "Register Differences",
+    "description": "Formal vs informal language",
+    "category": "Formal vs Informal English",
+    "subcategory": "Register",
+    "index": "277-register-differences/index.md",
+    "exercises": "277-register-differences/exercises.md",
+    "flashcards": "277-register-differences/flashcards.json"
+  },
+  {
+    "id": "278-formal-email-conventions",
+    "title": "Formal Letter/Email Conventions",
+    "description": "Professional correspondence",
+    "category": "Formal vs Informal English",
+    "subcategory": "Written Communication",
+    "index": "278-formal-email-conventions/index.md",
+    "exercises": "278-formal-email-conventions/exercises.md",
+    "flashcards": "278-formal-email-conventions/flashcards.json"
+  },
+  {
+    "id": "279-informal-conversational",
+    "title": "Informal Conversational Patterns",
+    "description": "Casual speech conventions",
+    "category": "Formal vs Informal English",
+    "subcategory": "Spoken Communication",
+    "index": "279-informal-conversational/index.md",
+    "exercises": "279-informal-conversational/exercises.md",
+    "flashcards": "279-informal-conversational/flashcards.json"
+  },
+  {
+    "id": "280-academic-writing-style",
+    "title": "Academic Writing Style",
+    "description": "Conventions for scholarly writing",
+    "category": "Formal vs Informal English",
+    "subcategory": "Academic",
+    "index": "280-academic-writing-style/index.md",
+    "exercises": "280-academic-writing-style/exercises.md",
+    "flashcards": "280-academic-writing-style/flashcards.json"
+  },
+  {
+    "id": "281-business-english",
+    "title": "Business English Conventions",
+    "description": "Professional workplace language",
+    "category": "Formal vs Informal English",
+    "subcategory": "Business",
+    "index": "281-business-english/index.md",
+    "exercises": "281-business-english/exercises.md",
+    "flashcards": "281-business-english/flashcards.json"
+  },
+  {
+    "id": "282-silent-letters",
+    "title": "Silent Letters",
+    "description": "Letters that aren't pronounced",
+    "category": "Pronunciation & Spelling",
+    "subcategory": "Spelling",
+    "index": "282-silent-letters/index.md",
+    "exercises": "282-silent-letters/exercises.md",
+    "flashcards": "282-silent-letters/flashcards.json"
+  },
+  {
+    "id": "283-spelling-patterns",
+    "title": "Common Spelling Patterns",
+    "description": "Rules and regularities",
+    "category": "Pronunciation & Spelling",
+    "subcategory": "Spelling",
+    "index": "283-spelling-patterns/index.md",
+    "exercises": "283-spelling-patterns/exercises.md",
+    "flashcards": "283-spelling-patterns/flashcards.json"
+  },
+  {
+    "id": "284-homophones",
+    "title": "Homophones",
+    "description": "Words that sound the same",
+    "category": "Pronunciation & Spelling",
+    "subcategory": "Confusing Words",
+    "index": "284-homophones/index.md",
+    "exercises": "284-homophones/exercises.md",
+    "flashcards": "284-homophones/flashcards.json"
+  },
+  {
+    "id": "285-word-stress-patterns",
+    "title": "Word Stress Patterns",
+    "description": "Which syllable to emphasize",
+    "category": "Pronunciation & Spelling",
+    "subcategory": "Pronunciation",
+    "index": "285-word-stress-patterns/index.md",
+    "exercises": "285-word-stress-patterns/exercises.md",
+    "flashcards": "285-word-stress-patterns/flashcards.json"
+  },
+  {
+    "id": "286-sentence-stress-rhythm",
+    "title": "Sentence Stress and Rhythm",
+    "description": "Emphasizing words in sentences",
+    "category": "Pronunciation & Spelling",
+    "subcategory": "Pronunciation",
+    "index": "286-sentence-stress-rhythm/index.md",
+    "exercises": "286-sentence-stress-rhythm/exercises.md",
+    "flashcards": "286-sentence-stress-rhythm/flashcards.json"
+  },
+  {
+    "id": "287-intonation-patterns",
+    "title": "Intonation Patterns",
+    "description": "Rising and falling pitch",
+    "category": "Pronunciation & Spelling",
+    "subcategory": "Pronunciation",
+    "index": "287-intonation-patterns/index.md",
+    "exercises": "287-intonation-patterns/exercises.md",
+    "flashcards": "287-intonation-patterns/flashcards.json"
   }
 ]

@@ -1,0 +1,8 @@
+[
+  {"question": "Fewer = ?", "answer": "Countable nouns: fewer people, fewer books"},
+  {"question": "Less = ?", "answer": "Uncountable nouns: less time, less water"},
+  {"question": "Memory trick?", "answer": "Fewer = how many, Less = how much"},
+  {"question": "'___ people, ___ time'", "answer": "fewer people, less time"},
+  {"question": "'10 items or less' correct?", "answer": "Informal; strictly: 10 items or fewer"}
+]
+

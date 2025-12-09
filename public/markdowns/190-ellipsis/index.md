@@ -47,3 +47,4 @@ Ellipsis is **omitting words** that can be understood from context.
 - To make speech/writing more natural
 - When meaning is clear
 
+

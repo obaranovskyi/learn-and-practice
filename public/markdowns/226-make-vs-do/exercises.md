@@ -4,3 +4,4 @@ Choose make or do: 1. ___ a mistake 2. ___ homework 3. ___ breakfast 4. ___ a fa
 
 **Answers:** 1. make 2. do 3. make 4. do 5. make 6. make 7. do 8. make 9. do 10. make
 
+

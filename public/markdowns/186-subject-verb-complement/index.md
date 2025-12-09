@@ -50,3 +50,4 @@ The complement describes the **object**:
 | Different from subject | Equals subject/object |
 | *I saw **him**.* | *He is **tall**.* |
 
+

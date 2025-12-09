@@ -1,0 +1,8 @@
+[
+  {"question": "It's = ?", "answer": "It is OR It has (contraction)"},
+  {"question": "Its = ?", "answer": "Possession: The cat licked its paw"},
+  {"question": "Test for it's?", "answer": "Can you replace with 'it is/has'? Yes = it's"},
+  {"question": "Why no apostrophe in 'its'?", "answer": "Possessive pronouns never have apostrophes"},
+  {"question": "'The dog wagged ___ tail'", "answer": "its (possession)"}
+]
+

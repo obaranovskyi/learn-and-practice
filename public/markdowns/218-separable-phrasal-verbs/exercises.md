@@ -4,3 +4,4 @@ Rewrite with pronoun: 1. Turn on the light. → Turn ___ on. 2. Pick up the boxe
 
 **Answers:** 1. it 2. them 3. it 4. it 5. it
 
+

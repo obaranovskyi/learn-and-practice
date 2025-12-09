@@ -4,3 +4,4 @@ Add periods where needed: 1. I live in New York 2. Dr Smith is here 3. She asked
 
 **Answers:** 1. I live in New York. 2. Dr. Smith is here. 3. No period (question) 4. We arrived at 3 p.m. 5. It was amazing. (or ! for emphasis)
 
+

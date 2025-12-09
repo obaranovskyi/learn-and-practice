@@ -4,3 +4,4 @@ Literal (L) or Idiomatic (I)? 1. Pick up the book. 2. She picked up French quick
 
 **Answers:** 1. L 2. I 3. L 4. I 5. L
 
+

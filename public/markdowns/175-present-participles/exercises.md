@@ -10,3 +10,4 @@ Identify the use of the -ing form:
 
 **Answers:** 1. continuous tense 2. adjective 3. after perception verb 4. participle clause 5. gerund (noun)
 
+

@@ -10,3 +10,4 @@ Use a lot of, plenty of, or enough:
 
 **Answers:** 1. plenty of/enough 2. a lot of/plenty of 3. enough 4. A lot of 5. enough
 
+

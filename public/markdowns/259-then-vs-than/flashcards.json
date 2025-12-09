@@ -1,0 +1,8 @@
+[
+  {"question": "Then = ?", "answer": "Time/sequence: then we left, back then"},
+  {"question": "Than = ?", "answer": "Comparison: better than, more than"},
+  {"question": "'Taller ___ me'", "answer": "than (comparison)"},
+  {"question": "'First this, ___ that'", "answer": "then (sequence)"},
+  {"question": "Memory trick?", "answer": "Than = comparison (always comparing)"}
+]
+

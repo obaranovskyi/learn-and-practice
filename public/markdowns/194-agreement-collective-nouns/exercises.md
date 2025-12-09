@@ -10,3 +10,4 @@ Choose singular or plural (both may be acceptable):
 
 **Answers:** 1. is (both ok) 2. are 3. has (both ok) 4. is 5. is/are (both ok)
 
+

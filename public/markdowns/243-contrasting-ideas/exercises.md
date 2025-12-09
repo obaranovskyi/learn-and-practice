@@ -4,3 +4,4 @@ Choose: however, although, despite, whereas: 1. ___, it was raining, we went out
 
 **Answers:** 1. Although 2. However 3. Despite 4. whereas
 
+

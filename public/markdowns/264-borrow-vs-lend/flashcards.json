@@ -1,0 +1,8 @@
+[
+  {"question": "Borrow = ?", "answer": "Receive temporarily: borrow FROM someone"},
+  {"question": "Lend = ?", "answer": "Give temporarily: lend TO someone"},
+  {"question": "'Can I ___ your pen?'", "answer": "borrow (receive from you)"},
+  {"question": "'Can you ___ me your pen?'", "answer": "lend (give to me)"},
+  {"question": "Common mistake?", "answer": "Can you borrow me... → Can you lend me..."}
+]
+

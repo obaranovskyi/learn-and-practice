@@ -40,3 +40,4 @@ Verb agreement depends on what follows "of."
 - ***The number of** students **is** increasing.* (singular)
 - ***A number of** students **are** absent.* (plural)
 
+

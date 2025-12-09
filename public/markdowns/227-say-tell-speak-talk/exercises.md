@@ -4,3 +4,4 @@ Choose: 1. She ___ me the truth. 2. He ___ that he was busy. 3. Can you ___ Fren
 
 **Answers:** 1. told 2. said 3. speak 4. talk 5. Tell
 
+

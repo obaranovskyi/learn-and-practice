@@ -4,3 +4,4 @@ Complete: 1. We arrived ___ time for dinner. (not late) 2. The bus left ___ time
 
 **Answers:** 1. in 2. on 3. In 4. As 5. at
 
+

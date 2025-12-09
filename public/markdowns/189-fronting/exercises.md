@@ -10,3 +10,4 @@ Rewrite with the underlined element fronted:
 
 **Answers:** 1. This song I really like. 2. On the hill stood a castle. 3. Very talented she is. 4. This one I'll take... 5. Away she went quickly.
 
+

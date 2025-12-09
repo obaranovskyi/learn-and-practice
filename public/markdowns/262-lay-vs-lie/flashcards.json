@@ -1,0 +1,8 @@
+[
+  {"question": "Lay needs?", "answer": "An object: lay the book down"},
+  {"question": "Lie = ?", "answer": "Recline (no object): lie down"},
+  {"question": "Past of 'lie' (recline)?", "answer": "lay: Yesterday I lay down"},
+  {"question": "Past of 'lay' (put)?", "answer": "laid: She laid the book down"},
+  {"question": "Test: object present?", "answer": "Yes → lay, No → lie"}
+]
+

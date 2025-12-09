@@ -48,3 +48,4 @@ Certain adverbs intensify certain adjectives.
 - seriously injured
 - heavily influenced
 
+

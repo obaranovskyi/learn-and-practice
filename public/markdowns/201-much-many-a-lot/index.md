@@ -46,3 +46,4 @@ More informal than "much/many" in positives.
 - *I like it **a lot**.* (adverb)
 - *Thanks **a lot**.*
 
+

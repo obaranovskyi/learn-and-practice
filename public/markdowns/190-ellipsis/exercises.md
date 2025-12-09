@@ -10,3 +10,4 @@ What words are omitted?
 
 **Answers:** 1. [she can] 2. [tall] 3. [going] 4. [leave] 5. [that's true]
 
+

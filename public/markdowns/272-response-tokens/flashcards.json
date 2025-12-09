@@ -1,0 +1,8 @@
+[
+  {"question": "Response tokens show?", "answer": "You're listening, engaged, interested"},
+  {"question": "Bad news response?", "answer": "Oh no! / That's terrible! / I'm sorry"},
+  {"question": "Good news response?", "answer": "Great! / Wonderful! / That's amazing!"},
+  {"question": "'Uh-huh' / 'mm-hmm' mean?", "answer": "I'm listening, continue speaking"},
+  {"question": "Why use response tokens?", "answer": "Shows engagement; silence can seem rude"}
+]
+

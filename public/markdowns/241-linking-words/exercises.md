@@ -4,3 +4,4 @@ Choose: however, therefore, moreover, in fact: 1. She's smart. ___, she's lazy. 
 
 **Answers:** 1. However 2. Therefore 3. Moreover 4. In fact
 
+

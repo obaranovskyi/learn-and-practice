@@ -37,3 +37,4 @@ Certain adjectives naturally pair with certain nouns.
 - ❌ big rain → ✅ heavy rain
 - ❌ fast food (NOT quick food)
 
+

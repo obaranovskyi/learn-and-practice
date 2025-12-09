@@ -10,3 +10,4 @@ Is it a simple sentence? (Yes/No)
 
 **Answers:** 1. Yes 2. Yes (compound verb) 3. No (compound) 4. Yes (compound subject) 5. No (complex)
 
+

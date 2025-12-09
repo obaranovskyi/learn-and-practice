@@ -44,3 +44,4 @@ Both are -ing forms, but:
 - **Gerund** = noun function: *Swimming is fun.*
 - **Participle** = adjective/verb function: *The swimming pool*
 
+

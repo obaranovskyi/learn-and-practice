@@ -50,3 +50,4 @@ Fronted: ***Away** she went.*
 - More common in writing than speech
 - Creates dramatic or formal tone
 
+

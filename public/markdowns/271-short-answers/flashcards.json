@@ -1,0 +1,8 @@
+[
+  {"question": "Short answer pattern?", "answer": "Yes/No + subject + auxiliary"},
+  {"question": "Why not just 'yes/no'?", "answer": "Sounds abrupt/rude in English"},
+  {"question": "'Yes, I'm' correct?", "answer": "No - no contraction in positive short answers"},
+  {"question": "Agreeing: 'I'm tired'?", "answer": "So am I / I am too"},
+  {"question": "Disagreeing: 'I don't like it'?", "answer": "Neither do I / I don't either"}
+]
+
