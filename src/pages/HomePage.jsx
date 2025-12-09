@@ -49,45 +49,52 @@ function HomePage() {
               <BookOpen className="w-6 h-6 text-primary" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold tracking-tight">Learn & Practice</h1>
-              <p className="text-sm text-muted-foreground">Master new concepts step by step</p>
+              <h1 className="text-2xl font-bold tracking-tight">English Grammar</h1>
+              <p className="text-sm text-muted-foreground">Learn & Practice</p>
             </div>
           </div>
         </div>
       </header>
 
       <main className="container mx-auto px-4 py-8">
-        <div className="mb-8">
-          <h2 className="text-xl font-semibold mb-2">Table of Contents</h2>
-          <p className="text-muted-foreground">
+        <div className="mb-6">
+          <h2 className="text-xl font-semibold mb-1">Table of Contents</h2>
+          <p className="text-sm text-muted-foreground">
             {topics.length} topic{topics.length !== 1 ? 's' : ''} available
           </p>
         </div>
 
-        <div className="grid gap-4">
-          {topics.map((topic, index) => (
-            <Link key={topic.id} to={`/topic/${topic.id}`}>
-              <Card className="group hover:border-primary/50 hover:shadow-md transition-all duration-200">
-                <CardHeader className="flex-row items-center gap-4">
-                  <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary/10 text-primary font-semibold text-sm shrink-0">
-                    {String(index + 1).padStart(2, '0')}
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <CardTitle className="text-lg group-hover:text-primary transition-colors">
-                      {topic.title}
-                    </CardTitle>
-                    {topic.description && (
-                      <CardDescription className="mt-1 truncate">
-                        {topic.description}
-                      </CardDescription>
-                    )}
-                  </div>
-                  <ChevronRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0" />
-                </CardHeader>
-              </Card>
-            </Link>
-          ))}
-        </div>
+        <Card>
+          <div className="divide-y">
+            <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x">
+              {/* Split topics into two columns for md+ screens */}
+              {[0, 1].map(colIndex => (
+                <div key={colIndex} className="divide-y">
+                  {topics
+                    .filter((_, i) => i % 2 === colIndex)
+                    .map((topic) => {
+                      const originalIndex = topics.findIndex(t => t.id === topic.id)
+                      return (
+                        <Link 
+                          key={topic.id} 
+                          to={`/topic/${topic.id}`}
+                          className="flex items-center gap-3 px-4 py-3 hover:bg-accent/50 transition-colors group"
+                        >
+                          <span className="text-xs font-mono text-muted-foreground w-8 shrink-0">
+                            {String(originalIndex + 1).padStart(3, '0')}
+                          </span>
+                          <span className="flex-1 text-sm font-medium group-hover:text-primary transition-colors truncate">
+                            {topic.title}
+                          </span>
+                          <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all shrink-0" />
+                        </Link>
+                      )
+                    })}
+                </div>
+              ))}
+            </div>
+          </div>
+        </Card>
 
         {topics.length === 0 && (
           <Card className="text-center py-12">
@@ -102,8 +109,8 @@ function HomePage() {
       </main>
 
       <footer className="border-t mt-auto">
-        <div className="container mx-auto px-4 py-6 text-center text-sm text-muted-foreground">
-          Built with React & Vite
+        <div className="container mx-auto px-4 py-4 text-center text-xs text-muted-foreground">
+          English Grammar Course • {topics.length} Topics
         </div>
       </footer>
     </div>
@@ -111,4 +118,3 @@ function HomePage() {
 }
 
 export default HomePage
-
