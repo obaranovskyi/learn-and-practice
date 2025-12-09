@@ -1,18 +1,58 @@
 [
   {
-    "id": "01-introduction",
-    "title": "Introduction",
-    "description": "Getting started with the learning platform",
-    "index": "01-introduction/index.md",
-    "exercises": "01-introduction/exercises.md",
-    "flashcards": "01-introduction/flashcards.json"
+    "id": "001-simple-present",
+    "title": "Simple Present",
+    "description": "Habits, facts, and schedules",
+    "index": "001-simple-present/index.md",
+    "exercises": "001-simple-present/exercises.md",
+    "flashcards": "001-simple-present/flashcards.json"
   },
   {
-    "id": "02-basics",
-    "title": "The Basics",
-    "description": "Fundamental concepts and terminology",
-    "index": "02-basics/index.md",
-    "exercises": "02-basics/exercises.md",
-    "flashcards": "02-basics/flashcards.json"
+    "id": "002-present-continuous",
+    "title": "Present Continuous",
+    "description": "Actions happening now or around now",
+    "index": "002-present-continuous/index.md",
+    "exercises": "002-present-continuous/exercises.md",
+    "flashcards": "002-present-continuous/flashcards.json"
+  },
+  {
+    "id": "003-present-perfect",
+    "title": "Present Perfect Simple",
+    "description": "Past actions with present relevance",
+    "index": "003-present-perfect/index.md",
+    "exercises": "003-present-perfect/exercises.md",
+    "flashcards": "003-present-perfect/flashcards.json"
+  },
+  {
+    "id": "004-present-perfect-continuous",
+    "title": "Present Perfect Continuous",
+    "description": "Ongoing actions from past to now",
+    "index": "004-present-perfect-continuous/index.md",
+    "exercises": "004-present-perfect-continuous/exercises.md",
+    "flashcards": "004-present-perfect-continuous/flashcards.json"
+  },
+  {
+    "id": "005-simple-past",
+    "title": "Simple Past",
+    "description": "Completed actions in the past",
+    "index": "005-simple-past/index.md",
+    "exercises": "005-simple-past/exercises.md",
+    "flashcards": "005-simple-past/flashcards.json"
+  },
+  {
+    "id": "006-articles",
+    "title": "Articles (A, An, The)",
+    "description": "Definite and indefinite articles",
+    "index": "006-articles/index.md",
+    "exercises": "006-articles/exercises.md",
+    "flashcards": "006-articles/flashcards.json"
+  },
+  {
+    "id": "007-first-conditional",
+    "title": "First Conditional",
+    "description": "Real future possibilities",
+    "index": "007-first-conditional/index.md",
+    "exercises": "007-first-conditional/exercises.md",
+    "flashcards": "007-first-conditional/flashcards.json"
   }
 ]

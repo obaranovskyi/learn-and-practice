@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "question": "What are the main uses of Simple Present?",
+    "answer": "1) Habits and routines, 2) General facts/truths, 3) Permanent situations, 4) Scheduled events, 5) Instructions"
+  },
+  {
+    "id": 2,
+    "question": "How do you form the third person singular (he/she/it)?",
+    "answer": "Add -s or -es to the base verb (works, watches, studies)"
+  },
+  {
+    "id": 3,
+    "question": "What auxiliary do you use for questions with he/she/it?",
+    "answer": "Does (Does she work here?)"
+  },
+  {
+    "id": 4,
+    "question": "What auxiliary do you use for negatives with I/you/we/they?",
+    "answer": "Do not / Don't (They don't like coffee)"
+  },
+  {
+    "id": 5,
+    "question": "Correct: 'She don't like pizza'",
+    "answer": "She doesn't like pizza"
+  },
+  {
+    "id": 6,
+    "question": "What happens to verbs ending in consonant + y for he/she/it?",
+    "answer": "Change y to -ies (study → studies, carry → carries)"
+  },
+  {
+    "id": 7,
+    "question": "Give 5 time expressions used with Simple Present",
+    "answer": "always, usually, often, sometimes, never, every day, on Mondays"
+  },
+  {
+    "id": 8,
+    "question": "When do we use Simple Present for future?",
+    "answer": "For scheduled events and timetables (The train leaves at 9 AM)"
+  }
+]
+

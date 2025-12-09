@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "question": "What is the structure of Present Perfect?",
+    "answer": "Subject + have/has + past participle (V3)"
+  },
+  {
+    "id": 2,
+    "question": "What are the main uses of Present Perfect?",
+    "answer": "1) Experiences, 2) Recent actions with results, 3) Unfinished time periods, 4) Actions continuing to now"
+  },
+  {
+    "id": 3,
+    "question": "What's the difference between FOR and SINCE?",
+    "answer": "FOR = duration (for 5 years), SINCE = starting point (since 2019)"
+  },
+  {
+    "id": 4,
+    "question": "Where do we put 'just' and 'already' in a sentence?",
+    "answer": "Before the past participle: I have just finished / She has already left"
+  },
+  {
+    "id": 5,
+    "question": "Where do we put 'yet' in a sentence?",
+    "answer": "At the end of questions/negatives: Have you finished yet? / I haven't finished yet."
+  },
+  {
+    "id": 6,
+    "question": "When do we use Simple Past instead of Present Perfect?",
+    "answer": "When the time is finished: yesterday, last week, in 2010, etc."
+  },
+  {
+    "id": 7,
+    "question": "Correct: 'I have seen him yesterday'",
+    "answer": "I saw him yesterday (finished time needs Simple Past)"
+  },
+  {
+    "id": 8,
+    "question": "Correct: 'I live here since 2015'",
+    "answer": "I have lived here since 2015"
+  }
+]
+

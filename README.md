@@ -1,15 +1,27 @@
-# Learn & Practice
+# 📚 English Grammar - Learn & Practice
 
-A generic learning application built with React + Vite that displays topics from markdown files with exercises and navigation.
+A comprehensive English grammar learning platform with lessons, exercises, and Anki-style flashcards.
 
 ## Features
 
-- 📚 Dynamic table of contents from markdown files
-- 📝 Markdown rendering with GFM support
-- 🏋️ Exercises section for each topic
-- ⬅️➡️ Previous/Next navigation (+ keyboard arrows)
-- 🎨 Modern UI with shadcn/ui components
-- 🚀 GitHub Pages ready
+- 📖 **Content** - Clear explanations with examples and tables
+- ✍️ **Exercises** - Practice questions with answers
+- 🃏 **Flashcards** - Anki-style spaced repetition
+
+## Current Topics
+
+### Verb Tenses
+1. Simple Present
+2. Present Continuous
+3. Present Perfect Simple
+4. Present Perfect Continuous
+5. Simple Past
+
+### Other Topics
+6. Articles (A, An, The)
+7. First Conditional
+
+*More topics coming soon! (287 total planned)*
 
 ## Quick Start
 
@@ -19,64 +31,52 @@ npm run generate-manifest
 npm run dev
 ```
 
-## Adding Content
+## Flashcard Controls
 
-1. Create a new folder in `public/markdowns/` with format `NN-topic-name`:
-   ```
-   public/markdowns/03-advanced/
-   ```
+| Key | Action |
+|-----|--------|
+| **Enter** | Show answer |
+| **Y** | Know it (card done) |
+| **N** | Don't know (card to middle) |
 
-2. Add required files:
+## Adding Topics
+
+1. Create folder: `public/markdowns/NNN-topic-name/`
+2. Add files:
    - `index.md` - Main content
    - `exercises.md` - Practice questions
-   - `meta.json` - Metadata
+   - `flashcards.json` - Flashcard data
+   - `meta.json` - Title and order
+3. Run `npm run generate-manifest`
 
-3. Example `meta.json`:
-   ```json
-   {
-     "title": "Advanced Topics",
-     "description": "Deep dive into advanced concepts",
-     "order": 3
-   }
-   ```
-
-4. Regenerate manifest:
-   ```bash
-   npm run generate-manifest
-   ```
-
-## Deployment
-
-### GitHub Pages (Automatic)
-
-Push to `main` branch - GitHub Actions will build and deploy automatically.
-
-### Manual Build
-
-```bash
-npm run build
+### Example meta.json
+```json
+{
+  "title": "Topic Name",
+  "description": "Brief description",
+  "order": 8
+}
 ```
 
-Output will be in `/dist` folder.
-
-## Configuration
-
-Update `vite.config.js` base path for your repository:
-
-```js
-export default defineConfig({
-  base: '/your-repo-name/',
-  // ...
-})
+### Example flashcards.json
+```json
+[
+  {
+    "id": 1,
+    "question": "What is...?",
+    "answer": "It is..."
+  }
+]
 ```
 
 ## Tech Stack
 
-- React 18
-- Vite 6
-- React Router 7
+- React + Vite
+- Tailwind CSS + shadcn/ui
 - react-markdown + remark-gfm
-- shadcn/ui components
-- Tailwind CSS
 
-All dependencies are MIT licensed.
+## Deployment
+
+Push to `main` → Auto-deploys to GitHub Pages
+
+**Live site:** https://obaranovskyi.github.io/learn-and-practice/

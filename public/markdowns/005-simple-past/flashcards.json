@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "question": "How do you form Simple Past for regular verbs?",
+    "answer": "Add -ed to the base verb (worked, played, studied)"
+  },
+  {
+    "id": 2,
+    "question": "How do you form negative in Simple Past?",
+    "answer": "Subject + didn't + base verb (I didn't go)"
+  },
+  {
+    "id": 3,
+    "question": "How do you form questions in Simple Past?",
+    "answer": "Did + subject + base verb? (Did you see?)"
+  },
+  {
+    "id": 4,
+    "question": "What's the past of: go, see, have, do?",
+    "answer": "went, saw, had, did"
+  },
+  {
+    "id": 5,
+    "question": "What's the past of: take, make, give, come?",
+    "answer": "took, made, gave, came"
+  },
+  {
+    "id": 6,
+    "question": "Correct: 'I didn't went there'",
+    "answer": "I didn't go there"
+  },
+  {
+    "id": 7,
+    "question": "What time expressions are used with Simple Past?",
+    "answer": "yesterday, last week, ago, in 2010, when I was young"
+  },
+  {
+    "id": 8,
+    "question": "What's the rule for verbs ending in consonant + y?",
+    "answer": "Change y to -ied (study → studied, carry → carried)"
+  }
+]
+

@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "question": "What is the structure of First Conditional?",
+    "answer": "If + Present Simple, will + base verb"
+  },
+  {
+    "id": 2,
+    "question": "What tense is used in the if-clause?",
+    "answer": "Present Simple (NOT will)"
+  },
+  {
+    "id": 3,
+    "question": "Correct: 'If it will rain, I will stay home'",
+    "answer": "If it rains, I will stay home"
+  },
+  {
+    "id": 4,
+    "question": "What does 'unless' mean?",
+    "answer": "Unless = if not (Unless you study = If you don't study)"
+  },
+  {
+    "id": 5,
+    "question": "When do we use First Conditional?",
+    "answer": "For real/possible future situations, promises, warnings, offers"
+  },
+  {
+    "id": 6,
+    "question": "Can you use other modals instead of 'will'?",
+    "answer": "Yes: can, may, might, should, must (If you finish, you CAN leave)"
+  },
+  {
+    "id": 7,
+    "question": "What's the difference: Zero vs First Conditional?",
+    "answer": "Zero = general truths (always), First = specific future (possible)"
+  },
+  {
+    "id": 8,
+    "question": "Rewrite: 'If you don't hurry, you'll be late' using 'unless'",
+    "answer": "Unless you hurry, you'll be late"
+  }
+]
+
