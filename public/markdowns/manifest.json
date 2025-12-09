@@ -2,7 +2,9 @@
   {
     "id": "001-simple-present",
     "title": "Simple Present",
-    "description": "Habits, facts, and schedules",
+    "description": "Habits, facts, schedules",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Present Tenses",
     "index": "001-simple-present/index.md",
     "exercises": "001-simple-present/exercises.md",
     "flashcards": "001-simple-present/flashcards.json"
@@ -10,7 +12,9 @@
   {
     "id": "002-present-continuous",
     "title": "Present Continuous",
-    "description": "Actions happening now or around now",
+    "description": "Actions happening now",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Present Tenses",
     "index": "002-present-continuous/index.md",
     "exercises": "002-present-continuous/exercises.md",
     "flashcards": "002-present-continuous/flashcards.json"
@@ -19,6 +23,8 @@
     "id": "003-present-perfect",
     "title": "Present Perfect Simple",
     "description": "Past actions with present relevance",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Present Tenses",
     "index": "003-present-perfect/index.md",
     "exercises": "003-present-perfect/exercises.md",
     "flashcards": "003-present-perfect/flashcards.json"
@@ -27,6 +33,8 @@
     "id": "004-present-perfect-continuous",
     "title": "Present Perfect Continuous",
     "description": "Ongoing actions from past to now",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Present Tenses",
     "index": "004-present-perfect-continuous/index.md",
     "exercises": "004-present-perfect-continuous/exercises.md",
     "flashcards": "004-present-perfect-continuous/flashcards.json"
@@ -34,25 +42,301 @@
   {
     "id": "005-simple-past",
     "title": "Simple Past",
-    "description": "Completed actions in the past",
+    "description": "Completed actions",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Past Tenses",
     "index": "005-simple-past/index.md",
     "exercises": "005-simple-past/exercises.md",
     "flashcards": "005-simple-past/flashcards.json"
   },
   {
-    "id": "006-articles",
-    "title": "Articles (A, An, The)",
-    "description": "Definite and indefinite articles",
-    "index": "006-articles/index.md",
-    "exercises": "006-articles/exercises.md",
-    "flashcards": "006-articles/flashcards.json"
+    "id": "006-past-continuous",
+    "title": "Past Continuous",
+    "description": "Actions in progress in the past",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Past Tenses",
+    "index": "006-past-continuous/index.md",
+    "exercises": "006-past-continuous/exercises.md",
+    "flashcards": "006-past-continuous/flashcards.json"
   },
   {
-    "id": "007-first-conditional",
-    "title": "First Conditional",
-    "description": "Real future possibilities",
-    "index": "007-first-conditional/index.md",
-    "exercises": "007-first-conditional/exercises.md",
-    "flashcards": "007-first-conditional/flashcards.json"
+    "id": "007-past-perfect",
+    "title": "Past Perfect Simple",
+    "description": "Actions before another past action",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Past Tenses",
+    "index": "007-past-perfect/index.md",
+    "exercises": "007-past-perfect/exercises.md",
+    "flashcards": "007-past-perfect/flashcards.json"
+  },
+  {
+    "id": "008-past-perfect-continuous",
+    "title": "Past Perfect Continuous",
+    "description": "Ongoing actions before a past point",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Past Tenses",
+    "index": "008-past-perfect-continuous/index.md",
+    "exercises": "008-past-perfect-continuous/exercises.md",
+    "flashcards": "008-past-perfect-continuous/flashcards.json"
+  },
+  {
+    "id": "009-simple-future-will",
+    "title": "Simple Future with 'will'",
+    "description": "Predictions, decisions, promises",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Future Tenses",
+    "index": "009-simple-future-will/index.md",
+    "exercises": "009-simple-future-will/exercises.md",
+    "flashcards": "009-simple-future-will/flashcards.json"
+  },
+  {
+    "id": "010-future-going-to",
+    "title": "Future with 'going to'",
+    "description": "Plans and predictions with evidence",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Future Tenses",
+    "index": "010-future-going-to/index.md",
+    "exercises": "010-future-going-to/exercises.md",
+    "flashcards": "010-future-going-to/flashcards.json"
+  },
+  {
+    "id": "011-future-continuous",
+    "title": "Future Continuous",
+    "description": "Actions in progress at a future time",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Future Tenses",
+    "index": "011-future-continuous/index.md",
+    "exercises": "011-future-continuous/exercises.md",
+    "flashcards": "011-future-continuous/flashcards.json"
+  },
+  {
+    "id": "012-future-perfect",
+    "title": "Future Perfect Simple",
+    "description": "Actions completed before a future time",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Future Tenses",
+    "index": "012-future-perfect/index.md",
+    "exercises": "012-future-perfect/exercises.md",
+    "flashcards": "012-future-perfect/flashcards.json"
+  },
+  {
+    "id": "013-future-perfect-continuous",
+    "title": "Future Perfect Continuous",
+    "description": "Duration up to a future point",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Future Tenses",
+    "index": "013-future-perfect-continuous/index.md",
+    "exercises": "013-future-perfect-continuous/exercises.md",
+    "flashcards": "013-future-perfect-continuous/flashcards.json"
+  },
+  {
+    "id": "014-present-for-future",
+    "title": "Present Tenses for Future",
+    "description": "Using present forms for future meanings",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Future Tenses",
+    "index": "014-present-for-future/index.md",
+    "exercises": "014-present-for-future/exercises.md",
+    "flashcards": "014-present-for-future/flashcards.json"
+  },
+  {
+    "id": "015-future-in-past",
+    "title": "Future in the Past",
+    "description": "was going to, would",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Future Tenses",
+    "index": "015-future-in-past/index.md",
+    "exercises": "015-future-in-past/exercises.md",
+    "flashcards": "015-future-in-past/flashcards.json"
+  },
+  {
+    "id": "016-time-sequencing",
+    "title": "Time Sequencing & Consistency",
+    "description": "Maintaining tense consistency",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Mixed Time References",
+    "index": "016-time-sequencing/index.md",
+    "exercises": "016-time-sequencing/exercises.md",
+    "flashcards": "016-time-sequencing/flashcards.json"
+  },
+  {
+    "id": "017-narrative-tenses",
+    "title": "Narrative Tenses",
+    "description": "Tenses in storytelling",
+    "category": "1. Verb Tenses & Aspects",
+    "subcategory": "Mixed Time References",
+    "index": "017-narrative-tenses/index.md",
+    "exercises": "017-narrative-tenses/exercises.md",
+    "flashcards": "017-narrative-tenses/flashcards.json"
+  },
+  {
+    "id": "018-can-could-be-able-to",
+    "title": "Can / Could / Be able to",
+    "description": "Expressing ability",
+    "category": "2. Modal Verbs",
+    "subcategory": "Ability & Permission",
+    "index": "018-can-could-be-able-to/index.md",
+    "exercises": "018-can-could-be-able-to/exercises.md",
+    "flashcards": "018-can-could-be-able-to/flashcards.json"
+  },
+  {
+    "id": "019-may-might-permission",
+    "title": "May / Might (permission)",
+    "description": "Asking for permission formally",
+    "category": "2. Modal Verbs",
+    "subcategory": "Ability & Permission",
+    "index": "019-may-might-permission/index.md",
+    "exercises": "019-may-might-permission/exercises.md",
+    "flashcards": "019-may-might-permission/flashcards.json"
+  },
+  {
+    "id": "020-must-have-to",
+    "title": "Must / Have to / Have got to",
+    "description": "Obligation and necessity",
+    "category": "2. Modal Verbs",
+    "subcategory": "Obligation & Necessity",
+    "index": "020-must-have-to/index.md",
+    "exercises": "020-must-have-to/exercises.md",
+    "flashcards": "020-must-have-to/flashcards.json"
+  },
+  {
+    "id": "021-should-ought-to",
+    "title": "Should / Ought to",
+    "description": "Obligation and recommendation",
+    "category": "2. Modal Verbs",
+    "subcategory": "Obligation & Necessity",
+    "index": "021-should-ought-to/index.md",
+    "exercises": "021-should-ought-to/exercises.md",
+    "flashcards": "021-should-ought-to/flashcards.json"
+  },
+  {
+    "id": "022-need-neednt",
+    "title": "Need to / Needn't",
+    "description": "Necessity and lack of necessity",
+    "category": "2. Modal Verbs",
+    "subcategory": "Obligation & Necessity",
+    "index": "022-need-neednt/index.md",
+    "exercises": "022-need-neednt/exercises.md",
+    "flashcards": "022-need-neednt/flashcards.json"
+  },
+  {
+    "id": "023-advice-had-better",
+    "title": "Should / Had better",
+    "description": "Advice and strong suggestions",
+    "category": "2. Modal Verbs",
+    "subcategory": "Advice & Suggestion",
+    "index": "023-advice-had-better/index.md",
+    "exercises": "023-advice-had-better/exercises.md",
+    "flashcards": "023-advice-had-better/flashcards.json"
+  },
+  {
+    "id": "024-could-might-suggestions",
+    "title": "Could / Might (suggestions)",
+    "description": "Making suggestions",
+    "category": "2. Modal Verbs",
+    "subcategory": "Advice & Suggestion",
+    "index": "024-could-might-suggestions/index.md",
+    "exercises": "024-could-might-suggestions/exercises.md",
+    "flashcards": "024-could-might-suggestions/flashcards.json"
+  },
+  {
+    "id": "025-may-might-possibility",
+    "title": "May / Might / Could (possibility)",
+    "description": "Expressing possibility",
+    "category": "2. Modal Verbs",
+    "subcategory": "Possibility & Probability",
+    "index": "025-may-might-possibility/index.md",
+    "exercises": "025-may-might-possibility/exercises.md",
+    "flashcards": "025-may-might-possibility/flashcards.json"
+  },
+  {
+    "id": "026-must-cant-deduction",
+    "title": "Must / Can't / Couldn't (deduction)",
+    "description": "Logical deductions",
+    "category": "2. Modal Verbs",
+    "subcategory": "Possibility & Probability",
+    "index": "026-must-cant-deduction/index.md",
+    "exercises": "026-must-cant-deduction/exercises.md",
+    "flashcards": "026-must-cant-deduction/flashcards.json"
+  },
+  {
+    "id": "027-should-expectation",
+    "title": "Should / Ought to (expectation)",
+    "description": "Expressing expectations",
+    "category": "2. Modal Verbs",
+    "subcategory": "Possibility & Probability",
+    "index": "027-should-expectation/index.md",
+    "exercises": "027-should-expectation/exercises.md",
+    "flashcards": "027-should-expectation/flashcards.json"
+  },
+  {
+    "id": "028-would",
+    "title": "Would",
+    "description": "Polite requests, habits, hypotheticals",
+    "category": "2. Modal Verbs",
+    "subcategory": "Other Modal Uses",
+    "index": "028-would/index.md",
+    "exercises": "028-would/exercises.md",
+    "flashcards": "028-would/flashcards.json"
+  },
+  {
+    "id": "029-shall",
+    "title": "Shall",
+    "description": "Offers, suggestions (formal)",
+    "category": "2. Modal Verbs",
+    "subcategory": "Other Modal Uses",
+    "index": "029-shall/index.md",
+    "exercises": "029-shall/exercises.md",
+    "flashcards": "029-shall/flashcards.json"
+  },
+  {
+    "id": "030-used-to-would",
+    "title": "Used to / Would",
+    "description": "Past habits",
+    "category": "2. Modal Verbs",
+    "subcategory": "Other Modal Uses",
+    "index": "030-used-to-would/index.md",
+    "exercises": "030-used-to-would/exercises.md",
+    "flashcards": "030-used-to-would/flashcards.json"
+  },
+  {
+    "id": "031-must-have-cant-have",
+    "title": "Must have / Can't have (past deduction)",
+    "description": "Past logical deductions",
+    "category": "2. Modal Verbs",
+    "subcategory": "Modal Perfect Forms",
+    "index": "031-must-have-cant-have/index.md",
+    "exercises": "031-must-have-cant-have/exercises.md",
+    "flashcards": "031-must-have-cant-have/flashcards.json"
+  },
+  {
+    "id": "032-should-have",
+    "title": "Should have / Ought to have",
+    "description": "Past advice and criticism",
+    "category": "2. Modal Verbs",
+    "subcategory": "Modal Perfect Forms",
+    "index": "032-should-have/index.md",
+    "exercises": "032-should-have/exercises.md",
+    "flashcards": "032-should-have/flashcards.json"
+  },
+  {
+    "id": "033-could-have-might-have",
+    "title": "Could have / Might have / May have",
+    "description": "Past possibility",
+    "category": "2. Modal Verbs",
+    "subcategory": "Modal Perfect Forms",
+    "index": "033-could-have-might-have/index.md",
+    "exercises": "033-could-have-might-have/exercises.md",
+    "flashcards": "033-could-have-might-have/flashcards.json"
+  },
+  {
+    "id": "034-would-have",
+    "title": "Would have",
+    "description": "Past hypothetical",
+    "category": "2. Modal Verbs",
+    "subcategory": "Modal Perfect Forms",
+    "index": "034-would-have/index.md",
+    "exercises": "034-would-have/exercises.md",
+    "flashcards": "034-would-have/flashcards.json"
   }
 ]

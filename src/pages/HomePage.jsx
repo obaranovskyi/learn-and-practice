@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { BookOpen, ChevronRight, Sparkles } from 'lucide-react'
+import { BookOpen, ChevronRight, Sparkles, ChevronDown } from 'lucide-react'
 import { loadManifest } from '@/lib/manifestLoader'
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 
@@ -8,6 +8,7 @@ function HomePage() {
   const [topics, setTopics] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
+  const [collapsedCategories, setCollapsedCategories] = useState({})
 
   useEffect(() => {
     loadManifest()
@@ -15,6 +16,31 @@ function HomePage() {
       .catch(err => setError(err.message))
       .finally(() => setLoading(false))
   }, [])
+
+  // Group topics by category and subcategory
+  const groupedTopics = useMemo(() => {
+    const groups = {}
+    topics.forEach((topic, index) => {
+      const cat = topic.category || 'Uncategorized'
+      const subcat = topic.subcategory || ''
+      
+      if (!groups[cat]) {
+        groups[cat] = { subcategories: {}, order: index }
+      }
+      if (!groups[cat].subcategories[subcat]) {
+        groups[cat].subcategories[subcat] = []
+      }
+      groups[cat].subcategories[subcat].push({ ...topic, globalIndex: index })
+    })
+    return groups
+  }, [topics])
+
+  const toggleCategory = (cat) => {
+    setCollapsedCategories(prev => ({
+      ...prev,
+      [cat]: !prev[cat]
+    }))
+  }
 
   if (loading) {
     return (
@@ -40,6 +66,10 @@ function HomePage() {
     )
   }
 
+  const categories = Object.keys(groupedTopics).sort((a, b) => 
+    groupedTopics[a].order - groupedTopics[b].order
+  )
+
   return (
     <div className="min-h-screen">
       <header className="border-b bg-card/50 backdrop-blur-sm sticky top-0 z-10">
@@ -50,51 +80,82 @@ function HomePage() {
             </div>
             <div>
               <h1 className="text-2xl font-bold tracking-tight">English Grammar</h1>
-              <p className="text-sm text-muted-foreground">Learn & Practice</p>
+              <p className="text-sm text-muted-foreground">{topics.length} topics to master</p>
             </div>
           </div>
         </div>
       </header>
 
-      <main className="container mx-auto px-4 py-8">
-        <div className="mb-6">
-          <h2 className="text-xl font-semibold mb-1">Table of Contents</h2>
-          <p className="text-sm text-muted-foreground">
-            {topics.length} topic{topics.length !== 1 ? 's' : ''} available
-          </p>
-        </div>
+      <main className="container mx-auto px-4 py-6 space-y-4">
+        {categories.map((category) => {
+          const catData = groupedTopics[category]
+          const isCollapsed = collapsedCategories[category]
+          const subcategories = Object.keys(catData.subcategories)
+          const topicCount = Object.values(catData.subcategories).flat().length
 
-        <Card>
-          <div className="divide-y">
-            <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x">
-              {/* Split topics into two columns for md+ screens */}
-              {[0, 1].map(colIndex => (
-                <div key={colIndex} className="divide-y">
-                  {topics
-                    .filter((_, i) => i % 2 === colIndex)
-                    .map((topic) => {
-                      const originalIndex = topics.findIndex(t => t.id === topic.id)
-                      return (
-                        <Link 
-                          key={topic.id} 
-                          to={`/topic/${topic.id}`}
-                          className="flex items-center gap-3 px-4 py-3 hover:bg-accent/50 transition-colors group"
-                        >
-                          <span className="text-xs font-mono text-muted-foreground w-8 shrink-0">
-                            {String(originalIndex + 1).padStart(3, '0')}
-                          </span>
-                          <span className="flex-1 text-sm font-medium group-hover:text-primary transition-colors truncate">
-                            {topic.title}
-                          </span>
-                          <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all shrink-0" />
-                        </Link>
-                      )
-                    })}
+          return (
+            <Card key={category}>
+              {/* Category Header */}
+              <button
+                onClick={() => toggleCategory(category)}
+                className="w-full px-4 py-3 flex items-center justify-between hover:bg-accent/50 transition-colors rounded-t-lg"
+              >
+                <div className="flex items-center gap-3">
+                  <ChevronDown className={`w-5 h-5 text-muted-foreground transition-transform ${isCollapsed ? '-rotate-90' : ''}`} />
+                  <h2 className="text-lg font-semibold text-foreground">{category}</h2>
+                  <span className="text-xs text-muted-foreground bg-muted px-2 py-0.5 rounded-full">
+                    {topicCount}
+                  </span>
                 </div>
-              ))}
-            </div>
-          </div>
-        </Card>
+              </button>
+
+              {/* Subcategories and Topics */}
+              {!isCollapsed && (
+                <div className="border-t">
+                  {subcategories.map((subcategory) => {
+                    const subcatTopics = catData.subcategories[subcategory]
+                    
+                    return (
+                      <div key={subcategory || 'default'}>
+                        {/* Subcategory Header */}
+                        {subcategory && (
+                          <div className="px-4 py-2 bg-muted/30 border-b">
+                            <h3 className="text-sm font-medium text-muted-foreground">{subcategory}</h3>
+                          </div>
+                        )}
+                        
+                        {/* Topics Grid */}
+                        <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0">
+                          {[0, 1].map(colIndex => (
+                            <div key={colIndex} className={`divide-y ${colIndex === 0 ? 'md:border-r' : ''}`}>
+                              {subcatTopics
+                                .filter((_, i) => i % 2 === colIndex)
+                                .map((topic) => (
+                                  <Link 
+                                    key={topic.id} 
+                                    to={`/topic/${topic.id}`}
+                                    className="flex items-center gap-3 px-4 py-2.5 hover:bg-accent/50 transition-colors group"
+                                  >
+                                    <span className="text-xs font-mono text-muted-foreground w-7 shrink-0">
+                                      {String(topic.globalIndex + 1).padStart(2, '0')}
+                                    </span>
+                                    <span className="flex-1 text-sm group-hover:text-primary transition-colors truncate">
+                                      {topic.title}
+                                    </span>
+                                    <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
+                                  </Link>
+                                ))}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )
+                  })}
+                </div>
+              )}
+            </Card>
+          )
+        })}
 
         {topics.length === 0 && (
           <Card className="text-center py-12">

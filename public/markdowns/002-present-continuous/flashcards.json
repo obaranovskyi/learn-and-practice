@@ -1,43 +1,8 @@
 [
-  {
-    "id": 1,
-    "question": "What is the structure of Present Continuous?",
-    "answer": "Subject + am/is/are + verb-ing"
-  },
-  {
-    "id": 2,
-    "question": "What are the main uses of Present Continuous?",
-    "answer": "1) Actions now, 2) Temporary situations, 3) Changing situations, 4) Future arrangements, 5) Annoying habits (always)"
-  },
-  {
-    "id": 3,
-    "question": "What are stative verbs? Give 5 examples.",
-    "answer": "Verbs describing states, not actions. Examples: know, believe, want, love, own"
-  },
-  {
-    "id": 4,
-    "question": "How do you form -ing with verbs ending in -e?",
-    "answer": "Drop the -e and add -ing (make → making, write → writing)"
-  },
-  {
-    "id": 5,
-    "question": "Correct: 'I am wanting coffee'",
-    "answer": "I want coffee (want is a stative verb)"
-  },
-  {
-    "id": 6,
-    "question": "How do you use Present Continuous for annoying habits?",
-    "answer": "Use 'always' + Present Continuous: He is always complaining!"
-  },
-  {
-    "id": 7,
-    "question": "What's the -ing form of: run, stop, swim?",
-    "answer": "running, stopping, swimming (double consonant)"
-  },
-  {
-    "id": 8,
-    "question": "When do we use Present Continuous for future?",
-    "answer": "For arrangements and plans already made: I'm meeting John tomorrow"
-  }
+  {"id": 1, "question": "Structure of Present Continuous?", "answer": "Subject + am/is/are + verb-ing"},
+  {"id": 2, "question": "Main uses?", "answer": "Actions now, temporary situations, future arrangements, annoying habits"},
+  {"id": 3, "question": "What are stative verbs?", "answer": "Verbs not used in continuous: know, believe, want, love, own"},
+  {"id": 4, "question": "-ing form of: make, run, stop?", "answer": "making, running, stopping"},
+  {"id": 5, "question": "Correct: 'I am wanting coffee'", "answer": "I want coffee (stative verb)"}
 ]
 

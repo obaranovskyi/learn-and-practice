@@ -1,43 +1,7 @@
 [
-  {
-    "id": 1,
-    "question": "What is the structure of Present Perfect Continuous?",
-    "answer": "Subject + have/has + been + verb-ing"
-  },
-  {
-    "id": 2,
-    "question": "What are the main uses of Present Perfect Continuous?",
-    "answer": "1) Duration of ongoing activity, 2) Recent activity with visible results, 3) Emphasis on how long"
-  },
-  {
-    "id": 3,
-    "question": "When do we use Present Perfect Simple instead of Continuous?",
-    "answer": "For completed actions, counting quantity, and with stative verbs"
-  },
-  {
-    "id": 4,
-    "question": "Correct: 'I have been writing 5 emails'",
-    "answer": "I have written 5 emails (counting = Simple)"
-  },
-  {
-    "id": 5,
-    "question": "Correct: 'I have been knowing him for years'",
-    "answer": "I have known him for years (know is stative)"
-  },
-  {
-    "id": 6,
-    "question": "Her eyes are red. What has she been doing?",
-    "answer": "She has been crying."
-  },
-  {
-    "id": 7,
-    "question": "What's the difference: 'I've read the book' vs 'I've been reading the book'?",
-    "answer": "Simple = finished reading; Continuous = still reading or emphasizing duration"
-  },
-  {
-    "id": 8,
-    "question": "How do you ask about duration with this tense?",
-    "answer": "How long have you been + verb-ing?"
-  }
+  {"id": 1, "question": "Structure?", "answer": "have/has + been + verb-ing"},
+  {"id": 2, "question": "Main uses?", "answer": "Duration of activity, recent activity with visible results"},
+  {"id": 3, "question": "When use Simple instead?", "answer": "Completed actions, counting quantity, stative verbs"},
+  {"id": 4, "question": "Correct: 'I've been writing 5 emails'", "answer": "I've written 5 emails (counting = Simple)"}
 ]
 

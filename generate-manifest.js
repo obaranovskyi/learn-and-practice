@@ -78,6 +78,8 @@ function generateManifest() {
       id: folder,
       title: meta.title || folder,
       description: meta.description || '',
+      category: meta.category || 'Uncategorized',
+      subcategory: meta.subcategory || '',
       order: meta.order || 999,
       index: `${folder}/index.md`,
       exercises: `${folder}/exercises.md`,
@@ -98,8 +100,18 @@ function generateManifest() {
   fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2))
   
   console.log(`Generated manifest.json with ${manifest.length} topic(s):`)
-  manifest.forEach((t, i) => console.log(`  ${i + 1}. ${t.title}`))
+  
+  // Group by category for display
+  const byCategory = {}
+  manifest.forEach(t => {
+    if (!byCategory[t.category]) byCategory[t.category] = []
+    byCategory[t.category].push(t)
+  })
+  
+  Object.entries(byCategory).forEach(([cat, items]) => {
+    console.log(`\n  ${cat}:`)
+    items.forEach(t => console.log(`    - ${t.title}`))
+  })
 }
 
 generateManifest()
-
