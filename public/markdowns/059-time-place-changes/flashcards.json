@@ -1,0 +1,5 @@
+[
+  {"id": 1, "question": "Today → Reported?", "answer": "That day"},
+  {"id": 2, "question": "Tomorrow → Reported?", "answer": "The next/following day"}
+]
+

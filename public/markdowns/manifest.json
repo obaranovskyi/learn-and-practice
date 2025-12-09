@@ -338,5 +338,495 @@
     "index": "034-would-have/index.md",
     "exercises": "034-would-have/exercises.md",
     "flashcards": "034-would-have/flashcards.json"
+  },
+  {
+    "id": "035-passive-all-tenses",
+    "title": "Passive Voice in All Tenses",
+    "description": "Forming passive in different tenses",
+    "category": "3. Passive Voice",
+    "subcategory": "Passive Basics",
+    "index": "035-passive-all-tenses/index.md",
+    "exercises": "035-passive-all-tenses/exercises.md",
+    "flashcards": "035-passive-all-tenses/flashcards.json"
+  },
+  {
+    "id": "036-passive-modals",
+    "title": "Passive with Modals",
+    "description": "Modal verbs in passive voice",
+    "category": "3. Passive Voice",
+    "subcategory": "Passive Basics",
+    "index": "036-passive-modals/index.md",
+    "exercises": "036-passive-modals/exercises.md",
+    "flashcards": "036-passive-modals/flashcards.json"
+  },
+  {
+    "id": "037-passive-infinitives-gerunds",
+    "title": "Passive Infinitives and Gerunds",
+    "description": "Passive forms with to-infinitive and -ing",
+    "category": "3. Passive Voice",
+    "subcategory": "Passive Basics",
+    "index": "037-passive-infinitives-gerunds/index.md",
+    "exercises": "037-passive-infinitives-gerunds/exercises.md",
+    "flashcards": "037-passive-infinitives-gerunds/flashcards.json"
+  },
+  {
+    "id": "038-get-passive",
+    "title": "Get-passive vs Be-passive",
+    "description": "Difference between get and be in passive",
+    "category": "3. Passive Voice",
+    "subcategory": "Passive Variations",
+    "index": "038-get-passive/index.md",
+    "exercises": "038-get-passive/exercises.md",
+    "flashcards": "038-get-passive/flashcards.json"
+  },
+  {
+    "id": "039-when-use-passive",
+    "title": "When to Use Passive",
+    "description": "Agent omission, focus shifting",
+    "category": "3. Passive Voice",
+    "subcategory": "Passive Variations",
+    "index": "039-when-use-passive/index.md",
+    "exercises": "039-when-use-passive/exercises.md",
+    "flashcards": "039-when-use-passive/flashcards.json"
+  },
+  {
+    "id": "040-impersonal-passive",
+    "title": "Impersonal Passive",
+    "description": "It is said that..., He is believed to...",
+    "category": "3. Passive Voice",
+    "subcategory": "Passive Variations",
+    "index": "040-impersonal-passive/index.md",
+    "exercises": "040-impersonal-passive/exercises.md",
+    "flashcards": "040-impersonal-passive/flashcards.json"
+  },
+  {
+    "id": "041-have-something-done",
+    "title": "Have Something Done",
+    "description": "Causative have",
+    "category": "3. Passive Voice",
+    "subcategory": "Causative",
+    "index": "041-have-something-done/index.md",
+    "exercises": "041-have-something-done/exercises.md",
+    "flashcards": "041-have-something-done/flashcards.json"
+  },
+  {
+    "id": "042-get-something-done",
+    "title": "Get Something Done",
+    "description": "Causative get",
+    "category": "3. Passive Voice",
+    "subcategory": "Causative",
+    "index": "042-get-something-done/index.md",
+    "exercises": "042-get-something-done/exercises.md",
+    "flashcards": "042-get-something-done/flashcards.json"
+  },
+  {
+    "id": "043-zero-conditional",
+    "title": "Zero Conditional",
+    "description": "General truths and facts",
+    "category": "4. Conditionals",
+    "subcategory": "Basic Conditionals",
+    "index": "043-zero-conditional/index.md",
+    "exercises": "043-zero-conditional/exercises.md",
+    "flashcards": "043-zero-conditional/flashcards.json"
+  },
+  {
+    "id": "044-first-conditional",
+    "title": "First Conditional",
+    "description": "Real future possibility",
+    "category": "4. Conditionals",
+    "subcategory": "Basic Conditionals",
+    "index": "044-first-conditional/index.md",
+    "exercises": "044-first-conditional/exercises.md",
+    "flashcards": "044-first-conditional/flashcards.json"
+  },
+  {
+    "id": "045-second-conditional",
+    "title": "Second Conditional",
+    "description": "Unreal present/future",
+    "category": "4. Conditionals",
+    "subcategory": "Basic Conditionals",
+    "index": "045-second-conditional/index.md",
+    "exercises": "045-second-conditional/exercises.md",
+    "flashcards": "045-second-conditional/flashcards.json"
+  },
+  {
+    "id": "046-third-conditional",
+    "title": "Third Conditional",
+    "description": "Unreal past",
+    "category": "4. Conditionals",
+    "subcategory": "Basic Conditionals",
+    "index": "046-third-conditional/index.md",
+    "exercises": "046-third-conditional/exercises.md",
+    "flashcards": "046-third-conditional/flashcards.json"
+  },
+  {
+    "id": "047-mixed-conditionals",
+    "title": "Mixed Conditionals",
+    "description": "Combining conditional types",
+    "category": "4. Conditionals",
+    "subcategory": "Advanced Conditionals",
+    "index": "047-mixed-conditionals/index.md",
+    "exercises": "047-mixed-conditionals/exercises.md",
+    "flashcards": "047-mixed-conditionals/flashcards.json"
+  },
+  {
+    "id": "048-unless-provided",
+    "title": "Unless, As long as, Provided that",
+    "description": "Alternative conditional words",
+    "category": "4. Conditionals",
+    "subcategory": "Advanced Conditionals",
+    "index": "048-unless-provided/index.md",
+    "exercises": "048-unless-provided/exercises.md",
+    "flashcards": "048-unless-provided/flashcards.json"
+  },
+  {
+    "id": "049-wish-if-only",
+    "title": "I wish / If only",
+    "description": "Regrets and wishes",
+    "category": "4. Conditionals",
+    "subcategory": "Wishes & Preferences",
+    "index": "049-wish-if-only/index.md",
+    "exercises": "049-wish-if-only/exercises.md",
+    "flashcards": "049-wish-if-only/flashcards.json"
+  },
+  {
+    "id": "050-would-rather",
+    "title": "Would rather / Would sooner",
+    "description": "Expressing preferences",
+    "category": "4. Conditionals",
+    "subcategory": "Wishes & Preferences",
+    "index": "050-would-rather/index.md",
+    "exercises": "050-would-rather/exercises.md",
+    "flashcards": "050-would-rather/flashcards.json"
+  },
+  {
+    "id": "051-its-time",
+    "title": "It's time / It's high time",
+    "description": "Expressing that something should happen",
+    "category": "4. Conditionals",
+    "subcategory": "Wishes & Preferences",
+    "index": "051-its-time/index.md",
+    "exercises": "051-its-time/exercises.md",
+    "flashcards": "051-its-time/flashcards.json"
+  },
+  {
+    "id": "052-suppose-what-if",
+    "title": "Suppose / Supposing / What if",
+    "description": "Imagining situations",
+    "category": "4. Conditionals",
+    "subcategory": "Wishes & Preferences",
+    "index": "052-suppose-what-if/index.md",
+    "exercises": "052-suppose-what-if/exercises.md",
+    "flashcards": "052-suppose-what-if/flashcards.json"
+  },
+  {
+    "id": "053-reporting-statements",
+    "title": "Reporting Statements",
+    "description": "Tense backshift in reported speech",
+    "category": "5. Reported Speech",
+    "subcategory": "Basic Reporting",
+    "index": "053-reporting-statements/index.md",
+    "exercises": "053-reporting-statements/exercises.md",
+    "flashcards": "053-reporting-statements/flashcards.json"
+  },
+  {
+    "id": "054-reporting-questions",
+    "title": "Reporting Questions",
+    "description": "Indirect questions",
+    "category": "5. Reported Speech",
+    "subcategory": "Basic Reporting",
+    "index": "054-reporting-questions/index.md",
+    "exercises": "054-reporting-questions/exercises.md",
+    "flashcards": "054-reporting-questions/flashcards.json"
+  },
+  {
+    "id": "055-reporting-commands",
+    "title": "Reporting Commands & Requests",
+    "description": "Using to-infinitive",
+    "category": "5. Reported Speech",
+    "subcategory": "Basic Reporting",
+    "index": "055-reporting-commands/index.md",
+    "exercises": "055-reporting-commands/exercises.md",
+    "flashcards": "055-reporting-commands/flashcards.json"
+  },
+  {
+    "id": "056-reporting-modals",
+    "title": "Reporting with Modals",
+    "description": "Modal changes in reported speech",
+    "category": "5. Reported Speech",
+    "subcategory": "Advanced Reporting",
+    "index": "056-reporting-modals/index.md",
+    "exercises": "056-reporting-modals/exercises.md",
+    "flashcards": "056-reporting-modals/flashcards.json"
+  },
+  {
+    "id": "057-say-tell-ask",
+    "title": "Say vs Tell vs Ask",
+    "description": "Choosing the right reporting verb",
+    "category": "5. Reported Speech",
+    "subcategory": "Advanced Reporting",
+    "index": "057-say-tell-ask/index.md",
+    "exercises": "057-say-tell-ask/exercises.md",
+    "flashcards": "057-say-tell-ask/flashcards.json"
+  },
+  {
+    "id": "058-reporting-verbs",
+    "title": "Reporting Verbs",
+    "description": "suggest, admit, deny, etc.",
+    "category": "5. Reported Speech",
+    "subcategory": "Advanced Reporting",
+    "index": "058-reporting-verbs/index.md",
+    "exercises": "058-reporting-verbs/exercises.md",
+    "flashcards": "058-reporting-verbs/flashcards.json"
+  },
+  {
+    "id": "059-time-place-changes",
+    "title": "Time & Place Changes",
+    "description": "Adjusting references in reported speech",
+    "category": "5. Reported Speech",
+    "subcategory": "Reported Changes",
+    "index": "059-time-place-changes/index.md",
+    "exercises": "059-time-place-changes/exercises.md",
+    "flashcards": "059-time-place-changes/flashcards.json"
+  },
+  {
+    "id": "060-reporting-that-clauses",
+    "title": "Reporting that-clauses",
+    "description": "Using that in reported speech",
+    "category": "5. Reported Speech",
+    "subcategory": "Reported Changes",
+    "index": "060-reporting-that-clauses/index.md",
+    "exercises": "060-reporting-that-clauses/exercises.md",
+    "flashcards": "060-reporting-that-clauses/flashcards.json"
+  },
+  {
+    "id": "061-reporting-infinitives",
+    "title": "Reporting with Infinitives",
+    "description": "Using to-infinitive in reported speech",
+    "category": "5. Reported Speech",
+    "subcategory": "Reported Changes",
+    "index": "061-reporting-infinitives/index.md",
+    "exercises": "061-reporting-infinitives/exercises.md",
+    "flashcards": "061-reporting-infinitives/flashcards.json"
+  },
+  {
+    "id": "062-reporting-gerunds",
+    "title": "Reporting with Gerunds",
+    "description": "Using -ing form in reported speech",
+    "category": "5. Reported Speech",
+    "subcategory": "Reported Changes",
+    "index": "062-reporting-gerunds/index.md",
+    "exercises": "062-reporting-gerunds/exercises.md",
+    "flashcards": "062-reporting-gerunds/flashcards.json"
+  },
+  {
+    "id": "063-yes-no-questions",
+    "title": "Yes/No Questions",
+    "description": "Questions with yes or no answers",
+    "category": "6. Questions",
+    "subcategory": "Question Types",
+    "index": "063-yes-no-questions/index.md",
+    "exercises": "063-yes-no-questions/exercises.md",
+    "flashcards": "063-yes-no-questions/flashcards.json"
+  },
+  {
+    "id": "064-wh-questions",
+    "title": "Wh- Questions",
+    "description": "What, Where, When, Why, Who, How",
+    "category": "6. Questions",
+    "subcategory": "Question Types",
+    "index": "064-wh-questions/index.md",
+    "exercises": "064-wh-questions/exercises.md",
+    "flashcards": "064-wh-questions/flashcards.json"
+  },
+  {
+    "id": "065-subject-object-questions",
+    "title": "Subject vs Object Questions",
+    "description": "When the question word is the subject",
+    "category": "6. Questions",
+    "subcategory": "Question Types",
+    "index": "065-subject-object-questions/index.md",
+    "exercises": "065-subject-object-questions/exercises.md",
+    "flashcards": "065-subject-object-questions/flashcards.json"
+  },
+  {
+    "id": "066-question-tags",
+    "title": "Question Tags",
+    "description": "Isn't it? Don't you?",
+    "category": "6. Questions",
+    "subcategory": "Special Questions",
+    "index": "066-question-tags/index.md",
+    "exercises": "066-question-tags/exercises.md",
+    "flashcards": "066-question-tags/flashcards.json"
+  },
+  {
+    "id": "067-indirect-questions",
+    "title": "Indirect Questions",
+    "description": "Embedded questions",
+    "category": "6. Questions",
+    "subcategory": "Special Questions",
+    "index": "067-indirect-questions/index.md",
+    "exercises": "067-indirect-questions/exercises.md",
+    "flashcards": "067-indirect-questions/flashcards.json"
+  },
+  {
+    "id": "068-negative-questions",
+    "title": "Negative Questions",
+    "description": "Questions with not",
+    "category": "6. Questions",
+    "subcategory": "Special Questions",
+    "index": "068-negative-questions/index.md",
+    "exercises": "068-negative-questions/exercises.md",
+    "flashcards": "068-negative-questions/flashcards.json"
+  },
+  {
+    "id": "069-questions-prepositions",
+    "title": "Questions with Prepositions",
+    "description": "Prepositions at the end",
+    "category": "6. Questions",
+    "subcategory": "Special Questions",
+    "index": "069-questions-prepositions/index.md",
+    "exercises": "069-questions-prepositions/exercises.md",
+    "flashcards": "069-questions-prepositions/flashcards.json"
+  },
+  {
+    "id": "070-how-much-many",
+    "title": "How much / How many / How long",
+    "description": "Questions about quantity and time",
+    "category": "6. Questions",
+    "subcategory": "Special Questions",
+    "index": "070-how-much-many/index.md",
+    "exercises": "070-how-much-many/exercises.md",
+    "flashcards": "070-how-much-many/flashcards.json"
+  },
+  {
+    "id": "071-verbs-gerund",
+    "title": "Verbs followed by Gerund",
+    "description": "Verbs + -ing form",
+    "category": "7. Gerunds & Infinitives",
+    "subcategory": "Verb Patterns",
+    "index": "071-verbs-gerund/index.md",
+    "exercises": "071-verbs-gerund/exercises.md",
+    "flashcards": "071-verbs-gerund/flashcards.json"
+  },
+  {
+    "id": "072-verbs-infinitive",
+    "title": "Verbs followed by Infinitive",
+    "description": "Verbs + to + verb",
+    "category": "7. Gerunds & Infinitives",
+    "subcategory": "Verb Patterns",
+    "index": "072-verbs-infinitive/index.md",
+    "exercises": "072-verbs-infinitive/exercises.md",
+    "flashcards": "072-verbs-infinitive/flashcards.json"
+  },
+  {
+    "id": "073-both-meaning-change",
+    "title": "Verbs taking both (meaning change)",
+    "description": "stop, remember, forget, try, regret",
+    "category": "7. Gerunds & Infinitives",
+    "subcategory": "Verb Patterns",
+    "index": "073-both-meaning-change/index.md",
+    "exercises": "073-both-meaning-change/exercises.md",
+    "flashcards": "073-both-meaning-change/flashcards.json"
+  },
+  {
+    "id": "074-both-no-change",
+    "title": "Verbs taking both (no change)",
+    "description": "like, love, hate, prefer, begin, start, continue",
+    "category": "7. Gerunds & Infinitives",
+    "subcategory": "Verb Patterns",
+    "index": "074-both-no-change/index.md",
+    "exercises": "074-both-no-change/exercises.md",
+    "flashcards": "074-both-no-change/flashcards.json"
+  },
+  {
+    "id": "075-gerund-subject",
+    "title": "Gerund as Subject",
+    "description": "-ing form as the subject",
+    "category": "7. Gerunds & Infinitives",
+    "subcategory": "Gerund Uses",
+    "index": "075-gerund-subject/index.md",
+    "exercises": "075-gerund-subject/exercises.md",
+    "flashcards": "075-gerund-subject/flashcards.json"
+  },
+  {
+    "id": "076-infinitive-purpose",
+    "title": "Infinitive of Purpose",
+    "description": "To explain why",
+    "category": "7. Gerunds & Infinitives",
+    "subcategory": "Infinitive Uses",
+    "index": "076-infinitive-purpose/index.md",
+    "exercises": "076-infinitive-purpose/exercises.md",
+    "flashcards": "076-infinitive-purpose/flashcards.json"
+  },
+  {
+    "id": "077-too-adjective-infinitive",
+    "title": "Too + adjective + infinitive",
+    "description": "Too...to structure",
+    "category": "7. Gerunds & Infinitives",
+    "subcategory": "Infinitive Uses",
+    "index": "077-too-adjective-infinitive/index.md",
+    "exercises": "077-too-adjective-infinitive/exercises.md",
+    "flashcards": "077-too-adjective-infinitive/flashcards.json"
+  },
+  {
+    "id": "078-enough-infinitive",
+    "title": "Adjective + enough + infinitive",
+    "description": "Enough...to structure",
+    "category": "7. Gerunds & Infinitives",
+    "subcategory": "Infinitive Uses",
+    "index": "078-enough-infinitive/index.md",
+    "exercises": "078-enough-infinitive/exercises.md",
+    "flashcards": "078-enough-infinitive/flashcards.json"
+  },
+  {
+    "id": "079-preposition-gerund",
+    "title": "Preposition + Gerund",
+    "description": "After prepositions use -ing",
+    "category": "7. Gerunds & Infinitives",
+    "subcategory": "Gerund Uses",
+    "index": "079-preposition-gerund/index.md",
+    "exercises": "079-preposition-gerund/exercises.md",
+    "flashcards": "079-preposition-gerund/flashcards.json"
+  },
+  {
+    "id": "080-possessive-gerund",
+    "title": "Gerund after Possessive",
+    "description": "his doing, my going",
+    "category": "7. Gerunds & Infinitives",
+    "subcategory": "Gerund Uses",
+    "index": "080-possessive-gerund/index.md",
+    "exercises": "080-possessive-gerund/exercises.md",
+    "flashcards": "080-possessive-gerund/flashcards.json"
+  },
+  {
+    "id": "081-perfect-gerund",
+    "title": "Perfect Gerund",
+    "description": "having done",
+    "category": "7. Gerunds & Infinitives",
+    "subcategory": "Perfect Forms",
+    "index": "081-perfect-gerund/index.md",
+    "exercises": "081-perfect-gerund/exercises.md",
+    "flashcards": "081-perfect-gerund/flashcards.json"
+  },
+  {
+    "id": "082-perfect-infinitive",
+    "title": "Perfect Infinitive",
+    "description": "to have done",
+    "category": "7. Gerunds & Infinitives",
+    "subcategory": "Perfect Forms",
+    "index": "082-perfect-infinitive/index.md",
+    "exercises": "082-perfect-infinitive/exercises.md",
+    "flashcards": "082-perfect-infinitive/flashcards.json"
+  },
+  {
+    "id": "083-bare-infinitive",
+    "title": "Bare Infinitive",
+    "description": "Infinitive without 'to'",
+    "category": "7. Gerunds & Infinitives",
+    "subcategory": "Perfect Forms",
+    "index": "083-bare-infinitive/index.md",
+    "exercises": "083-bare-infinitive/exercises.md",
+    "flashcards": "083-bare-infinitive/flashcards.json"
   }
 ]
