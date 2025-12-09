@@ -154,7 +154,8 @@ function HomePage() {
                       <div key={subcategory || 'default'}>
                         {/* Subcategory Header */}
                         {subcategory && (
-                          <div className="px-4 py-2 bg-muted/30 border-b">
+                          <div className="px-4 py-2 bg-muted/30 border-b flex items-center gap-2">
+                            <BookOpen className="w-4 h-4 text-primary" />
                             <h3 className="text-sm font-medium text-muted-foreground">{subcategory}</h3>
                           </div>
                         )}
