@@ -4,13 +4,15 @@
     "title": "Introduction",
     "description": "Getting started with the learning platform",
     "index": "01-introduction/index.md",
-    "exercises": "01-introduction/exercises.md"
+    "exercises": "01-introduction/exercises.md",
+    "flashcards": "01-introduction/flashcards.json"
   },
   {
     "id": "02-basics",
     "title": "The Basics",
     "description": "Fundamental concepts and terminology",
     "index": "02-basics/index.md",
-    "exercises": "02-basics/exercises.md"
+    "exercises": "02-basics/exercises.md",
+    "flashcards": "02-basics/flashcards.json"
   }
 ]

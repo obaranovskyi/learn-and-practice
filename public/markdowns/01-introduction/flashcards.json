@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "question": "What keyboard shortcuts can you use to navigate between topics?",
+    "answer": "Left arrow (←) for previous topic, Right arrow (→) for next topic"
+  },
+  {
+    "id": 2,
+    "question": "What are the two main sections available for each topic?",
+    "answer": "Content (main learning material) and Exercises (practice questions)"
+  },
+  {
+    "id": 3,
+    "question": "What formats does the markdown renderer support?",
+    "answer": "Headers, lists, tables, code blocks, blockquotes, links, and images"
+  },
+  {
+    "id": 4,
+    "question": "How do you add a new topic to this learning platform?",
+    "answer": "Create a folder in public/markdowns with index.md, exercises.md, and meta.json, then run generate-manifest"
+  }
+]
+

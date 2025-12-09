@@ -72,6 +72,7 @@ function generateManifest() {
     }
 
     const meta = loadMeta(folder)
+    const hasFlashcards = fs.existsSync(path.join(MARKDOWNS_DIR, folder, 'flashcards.json'))
     
     topics.push({
       id: folder,
@@ -79,7 +80,8 @@ function generateManifest() {
       description: meta.description || '',
       order: meta.order || 999,
       index: `${folder}/index.md`,
-      exercises: `${folder}/exercises.md`
+      exercises: `${folder}/exercises.md`,
+      flashcards: hasFlashcards ? `${folder}/flashcards.json` : null
     })
   }
 

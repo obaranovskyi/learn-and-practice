@@ -17,3 +17,11 @@ export async function loadTopicContent(topicId) {
   return { index, exercises }
 }
 
+export async function loadFlashcards(topicId) {
+  const response = await fetch(`${BASE_URL}markdowns/${topicId}/flashcards.json`)
+  if (!response.ok) {
+    throw new Error(`Failed to load flashcards: ${topicId}`)
+  }
+  return response.json()
+}
+

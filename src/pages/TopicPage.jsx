@@ -2,17 +2,19 @@ import { useEffect, useState } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-import { ChevronLeft, ChevronRight, Home, BookOpen, PenTool } from 'lucide-react'
+import { ChevronLeft, ChevronRight, Home, BookOpen, PenTool, Layers } from 'lucide-react'
 import { getTopicById, getAdjacentTopics } from '@/lib/manifestLoader'
-import { loadTopicContent } from '@/lib/markdownLoader'
+import { loadTopicContent, loadFlashcards } from '@/lib/markdownLoader'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import Flashcard from '@/components/Flashcard'
 
 function TopicPage() {
   const { id } = useParams()
   const navigate = useNavigate()
   const [topic, setTopic] = useState(null)
   const [content, setContent] = useState({ index: '', exercises: '' })
+  const [flashcards, setFlashcards] = useState(null)
   const [navigation, setNavigation] = useState({ previous: null, next: null })
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -28,13 +30,25 @@ function TopicPage() {
       loadTopicContent(id),
       getAdjacentTopics(id)
     ])
-      .then(([topicData, contentData, navData]) => {
+      .then(async ([topicData, contentData, navData]) => {
         if (!topicData) {
           throw new Error('Topic not found')
         }
         setTopic(topicData)
         setContent(contentData)
         setNavigation(navData)
+        
+        // Load flashcards if available
+        if (topicData.flashcards) {
+          try {
+            const flashcardsData = await loadFlashcards(id)
+            setFlashcards(flashcardsData)
+          } catch {
+            setFlashcards(null)
+          }
+        } else {
+          setFlashcards(null)
+        }
       })
       .catch(err => setError(err.message))
       .finally(() => setLoading(false))
@@ -42,6 +56,9 @@ function TopicPage() {
 
   useEffect(() => {
     const handleKeyDown = (e) => {
+      // Don't navigate when in flashcards mode (it has its own key handlers)
+      if (activeTab === 'flashcards') return
+      
       if (e.key === 'ArrowLeft' && navigation.previous) {
         navigate(`/topic/${navigation.previous.id}`)
       } else if (e.key === 'ArrowRight' && navigation.next) {
@@ -51,7 +68,7 @@ function TopicPage() {
 
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [navigation, navigate])
+  }, [navigation, navigate, activeTab])
 
   if (loading) {
     return (
@@ -79,6 +96,20 @@ function TopicPage() {
           </CardContent>
         </Card>
       </div>
+    )
+  }
+
+  const renderContent = () => {
+    if (activeTab === 'flashcards' && flashcards) {
+      return <Flashcard cards={flashcards} />
+    }
+    
+    return (
+      <article className="prose">
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>
+          {activeTab === 'content' ? content.index : content.exercises}
+        </ReactMarkdown>
+      </article>
     )
   }
 
@@ -118,6 +149,16 @@ function TopicPage() {
                 <PenTool className="w-4 h-4 mr-1" />
                 Exercises
               </Button>
+              {flashcards && (
+                <Button
+                  variant={activeTab === 'flashcards' ? 'default' : 'outline'}
+                  size="sm"
+                  onClick={() => setActiveTab('flashcards')}
+                >
+                  <Layers className="w-4 h-4 mr-1" />
+                  Flashcards
+                </Button>
+              )}
             </div>
           </div>
         </div>
@@ -126,11 +167,7 @@ function TopicPage() {
       <main className="flex-1 container mx-auto px-4 py-8">
         <Card>
           <CardContent className="p-6 md:p-8 lg:p-10">
-            <article className="prose">
-              <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                {activeTab === 'content' ? content.index : content.exercises}
-              </ReactMarkdown>
-            </article>
+            {renderContent()}
           </CardContent>
         </Card>
       </main>
@@ -153,7 +190,7 @@ function TopicPage() {
             )}
 
             <span className="text-sm text-muted-foreground hidden sm:block">
-              Use ← → arrow keys to navigate
+              {activeTab === 'flashcards' ? 'Space to flip, 1-4 to rate' : 'Use ← → arrow keys to navigate'}
             </span>
 
             {navigation.next ? (
@@ -182,4 +219,3 @@ function TopicPage() {
 }
 
 export default TopicPage
-
