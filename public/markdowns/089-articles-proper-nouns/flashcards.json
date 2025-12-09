@@ -1,0 +1,8 @@
+[
+  {"question": "Article with rivers?", "answer": "Always 'the': the Thames, the Nile, the Amazon"},
+  {"question": "Article with single mountains?", "answer": "No article: Mount Everest, Mount Fuji"},
+  {"question": "Article with mountain ranges?", "answer": "'the': the Alps, the Andes, the Himalayas"},
+  {"question": "Why 'the Netherlands' but 'France'?", "answer": "Plural country names use 'the'; singular don't"},
+  {"question": "Article with lakes?", "answer": "No article: Lake Victoria, Lake Erie"}
+]
+

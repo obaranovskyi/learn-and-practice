@@ -1,0 +1,8 @@
+[
+  {"question": "Article with island groups?", "answer": "'the': the Bahamas, the Philippines, the Canaries"},
+  {"question": "Article with single islands?", "answer": "No article: Bali, Malta, Cuba"},
+  {"question": "Article with deserts?", "answer": "'the': the Sahara, the Gobi, the Mojave"},
+  {"question": "Article with regions?", "answer": "'the': the Middle East, the Arctic, the South"},
+  {"question": "Article with parks?", "answer": "No article: Central Park, Yellowstone, Hyde Park"}
+]
+

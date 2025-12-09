@@ -828,5 +828,325 @@
     "index": "083-bare-infinitive/index.md",
     "exercises": "083-bare-infinitive/exercises.md",
     "flashcards": "083-bare-infinitive/flashcards.json"
+  },
+  {
+    "id": "084-definite-article-the",
+    "title": "Definite Article \"the\"",
+    "description": "Specific reference with the definite article",
+    "category": "Articles",
+    "subcategory": "Article Usage",
+    "index": "084-definite-article-the/index.md",
+    "exercises": "084-definite-article-the/exercises.md",
+    "flashcards": "084-definite-article-the/flashcards.json"
+  },
+  {
+    "id": "085-indefinite-articles",
+    "title": "Indefinite Articles \"a/an\"",
+    "description": "Non-specific reference with indefinite articles",
+    "category": "Articles",
+    "subcategory": "Article Usage",
+    "index": "085-indefinite-articles/index.md",
+    "exercises": "085-indefinite-articles/exercises.md",
+    "flashcards": "085-indefinite-articles/flashcards.json"
+  },
+  {
+    "id": "086-zero-article",
+    "title": "Zero Article",
+    "description": "When no article is needed",
+    "category": "Articles",
+    "subcategory": "Article Usage",
+    "index": "086-zero-article/index.md",
+    "exercises": "086-zero-article/exercises.md",
+    "flashcards": "086-zero-article/flashcards.json"
+  },
+  {
+    "id": "087-articles-countable-nouns",
+    "title": "Articles with Countable Nouns",
+    "description": "Using articles with countable nouns",
+    "category": "Articles",
+    "subcategory": "Article Usage",
+    "index": "087-articles-countable-nouns/index.md",
+    "exercises": "087-articles-countable-nouns/exercises.md",
+    "flashcards": "087-articles-countable-nouns/flashcards.json"
+  },
+  {
+    "id": "088-articles-uncountable-nouns",
+    "title": "Articles with Uncountable Nouns",
+    "description": "Using articles with uncountable nouns",
+    "category": "Articles",
+    "subcategory": "Article Usage",
+    "index": "088-articles-uncountable-nouns/index.md",
+    "exercises": "088-articles-uncountable-nouns/exercises.md",
+    "flashcards": "088-articles-uncountable-nouns/flashcards.json"
+  },
+  {
+    "id": "089-articles-proper-nouns",
+    "title": "Articles with Proper Nouns",
+    "description": "Using articles with names and proper nouns",
+    "category": "Articles",
+    "subcategory": "Article Usage",
+    "index": "089-articles-proper-nouns/index.md",
+    "exercises": "089-articles-proper-nouns/exercises.md",
+    "flashcards": "089-articles-proper-nouns/flashcards.json"
+  },
+  {
+    "id": "090-articles-geographical-names",
+    "title": "Articles with Geographical Names",
+    "description": "Detailed rules for articles with places",
+    "category": "Articles",
+    "subcategory": "Article Usage",
+    "index": "090-articles-geographical-names/index.md",
+    "exercises": "090-articles-geographical-names/exercises.md",
+    "flashcards": "090-articles-geographical-names/flashcards.json"
+  },
+  {
+    "id": "091-articles-institutions",
+    "title": "Articles with Institutions",
+    "description": "Using articles with schools, hospitals, churches",
+    "category": "Articles",
+    "subcategory": "Article Usage",
+    "index": "091-articles-institutions/index.md",
+    "exercises": "091-articles-institutions/exercises.md",
+    "flashcards": "091-articles-institutions/flashcards.json"
+  },
+  {
+    "id": "092-articles-abstract-nouns",
+    "title": "Articles with Abstract Nouns",
+    "description": "Using articles with abstract concepts",
+    "category": "Articles",
+    "subcategory": "Article Usage",
+    "index": "092-articles-abstract-nouns/index.md",
+    "exercises": "092-articles-abstract-nouns/exercises.md",
+    "flashcards": "092-articles-abstract-nouns/flashcards.json"
+  },
+  {
+    "id": "093-fixed-expressions-articles",
+    "title": "Fixed Expressions with Articles",
+    "description": "Common expressions with or without articles",
+    "category": "Articles",
+    "subcategory": "Article Usage",
+    "index": "093-fixed-expressions-articles/index.md",
+    "exercises": "093-fixed-expressions-articles/exercises.md",
+    "flashcards": "093-fixed-expressions-articles/flashcards.json"
+  },
+  {
+    "id": "094-countable-uncountable-nouns",
+    "title": "Countable vs Uncountable Nouns",
+    "description": "Understanding the difference between countable and uncountable nouns",
+    "category": "Nouns",
+    "subcategory": "Types & Forms",
+    "index": "094-countable-uncountable-nouns/index.md",
+    "exercises": "094-countable-uncountable-nouns/exercises.md",
+    "flashcards": "094-countable-uncountable-nouns/flashcards.json"
+  },
+  {
+    "id": "095-plural-formation-regular",
+    "title": "Plural Formation (Regular)",
+    "description": "Rules for forming regular plural nouns",
+    "category": "Nouns",
+    "subcategory": "Types & Forms",
+    "index": "095-plural-formation-regular/index.md",
+    "exercises": "095-plural-formation-regular/exercises.md",
+    "flashcards": "095-plural-formation-regular/flashcards.json"
+  },
+  {
+    "id": "096-irregular-plurals",
+    "title": "Irregular Plurals",
+    "description": "Nouns with irregular plural forms",
+    "category": "Nouns",
+    "subcategory": "Types & Forms",
+    "index": "096-irregular-plurals/index.md",
+    "exercises": "096-irregular-plurals/exercises.md",
+    "flashcards": "096-irregular-plurals/flashcards.json"
+  },
+  {
+    "id": "097-nouns-always-plural",
+    "title": "Nouns Always Plural",
+    "description": "Nouns that only exist in plural form",
+    "category": "Nouns",
+    "subcategory": "Types & Forms",
+    "index": "097-nouns-always-plural/index.md",
+    "exercises": "097-nouns-always-plural/exercises.md",
+    "flashcards": "097-nouns-always-plural/flashcards.json"
+  },
+  {
+    "id": "098-nouns-look-plural-singular",
+    "title": "Nouns That Look Plural but Are Singular",
+    "description": "Nouns ending in -s that take singular verbs",
+    "category": "Nouns",
+    "subcategory": "Types & Forms",
+    "index": "098-nouns-look-plural-singular/index.md",
+    "exercises": "098-nouns-look-plural-singular/exercises.md",
+    "flashcards": "098-nouns-look-plural-singular/flashcards.json"
+  },
+  {
+    "id": "099-collective-nouns",
+    "title": "Collective Nouns",
+    "description": "Nouns for groups that can be singular or plural",
+    "category": "Nouns",
+    "subcategory": "Types & Forms",
+    "index": "099-collective-nouns/index.md",
+    "exercises": "099-collective-nouns/exercises.md",
+    "flashcards": "099-collective-nouns/flashcards.json"
+  },
+  {
+    "id": "100-compound-nouns",
+    "title": "Compound Nouns",
+    "description": "Nouns made from two or more words",
+    "category": "Nouns",
+    "subcategory": "Types & Forms",
+    "index": "100-compound-nouns/index.md",
+    "exercises": "100-compound-nouns/exercises.md",
+    "flashcards": "100-compound-nouns/flashcards.json"
+  },
+  {
+    "id": "101-possessive-nouns",
+    "title": "Possessive Nouns",
+    "description": "Using 's and s' to show possession",
+    "category": "Nouns",
+    "subcategory": "Noun Features",
+    "index": "101-possessive-nouns/index.md",
+    "exercises": "101-possessive-nouns/exercises.md",
+    "flashcards": "101-possessive-nouns/flashcards.json"
+  },
+  {
+    "id": "102-noun-gender",
+    "title": "Noun Gender",
+    "description": "Gender distinctions in English nouns",
+    "category": "Nouns",
+    "subcategory": "Noun Features",
+    "index": "102-noun-gender/index.md",
+    "exercises": "102-noun-gender/exercises.md",
+    "flashcards": "102-noun-gender/flashcards.json"
+  },
+  {
+    "id": "103-abstract-concrete-nouns",
+    "title": "Abstract vs Concrete Nouns",
+    "description": "Nouns for things vs concepts",
+    "category": "Nouns",
+    "subcategory": "Noun Features",
+    "index": "103-abstract-concrete-nouns/index.md",
+    "exercises": "103-abstract-concrete-nouns/exercises.md",
+    "flashcards": "103-abstract-concrete-nouns/flashcards.json"
+  },
+  {
+    "id": "104-proper-common-nouns",
+    "title": "Proper vs Common Nouns",
+    "description": "Names vs general nouns",
+    "category": "Nouns",
+    "subcategory": "Noun Features",
+    "index": "104-proper-common-nouns/index.md",
+    "exercises": "104-proper-common-nouns/exercises.md",
+    "flashcards": "104-proper-common-nouns/flashcards.json"
+  },
+  {
+    "id": "105-personal-pronouns",
+    "title": "Personal Pronouns",
+    "description": "I, you, he, she, it, we, they as subjects",
+    "category": "Pronouns",
+    "subcategory": "Pronoun Types",
+    "index": "105-personal-pronouns/index.md",
+    "exercises": "105-personal-pronouns/exercises.md",
+    "flashcards": "105-personal-pronouns/flashcards.json"
+  },
+  {
+    "id": "106-object-pronouns",
+    "title": "Object Pronouns",
+    "description": "Me, you, him, her, it, us, them as objects",
+    "category": "Pronouns",
+    "subcategory": "Pronoun Types",
+    "index": "106-object-pronouns/index.md",
+    "exercises": "106-object-pronouns/exercises.md",
+    "flashcards": "106-object-pronouns/flashcards.json"
+  },
+  {
+    "id": "107-possessive-pronouns",
+    "title": "Possessive Pronouns",
+    "description": "Mine, yours, his, hers, ours, theirs",
+    "category": "Pronouns",
+    "subcategory": "Pronoun Types",
+    "index": "107-possessive-pronouns/index.md",
+    "exercises": "107-possessive-pronouns/exercises.md",
+    "flashcards": "107-possessive-pronouns/flashcards.json"
+  },
+  {
+    "id": "108-possessive-adjectives",
+    "title": "Possessive Adjectives",
+    "description": "My, your, his, her, its, our, their",
+    "category": "Pronouns",
+    "subcategory": "Pronoun Types",
+    "index": "108-possessive-adjectives/index.md",
+    "exercises": "108-possessive-adjectives/exercises.md",
+    "flashcards": "108-possessive-adjectives/flashcards.json"
+  },
+  {
+    "id": "109-reflexive-pronouns",
+    "title": "Reflexive Pronouns",
+    "description": "Myself, yourself, himself, herself, etc.",
+    "category": "Pronouns",
+    "subcategory": "Pronoun Types",
+    "index": "109-reflexive-pronouns/index.md",
+    "exercises": "109-reflexive-pronouns/exercises.md",
+    "flashcards": "109-reflexive-pronouns/flashcards.json"
+  },
+  {
+    "id": "110-reciprocal-pronouns",
+    "title": "Reciprocal Pronouns",
+    "description": "Each other and one another",
+    "category": "Pronouns",
+    "subcategory": "Pronoun Types",
+    "index": "110-reciprocal-pronouns/index.md",
+    "exercises": "110-reciprocal-pronouns/exercises.md",
+    "flashcards": "110-reciprocal-pronouns/flashcards.json"
+  },
+  {
+    "id": "111-relative-pronouns",
+    "title": "Relative Pronouns",
+    "description": "Who, whom, whose, which, that",
+    "category": "Pronouns",
+    "subcategory": "Pronoun Types",
+    "index": "111-relative-pronouns/index.md",
+    "exercises": "111-relative-pronouns/exercises.md",
+    "flashcards": "111-relative-pronouns/flashcards.json"
+  },
+  {
+    "id": "112-demonstrative-pronouns",
+    "title": "Demonstrative Pronouns",
+    "description": "This, that, these, those",
+    "category": "Pronouns",
+    "subcategory": "Pronoun Types",
+    "index": "112-demonstrative-pronouns/index.md",
+    "exercises": "112-demonstrative-pronouns/exercises.md",
+    "flashcards": "112-demonstrative-pronouns/flashcards.json"
+  },
+  {
+    "id": "113-indefinite-pronouns",
+    "title": "Indefinite Pronouns",
+    "description": "Someone, anybody, nothing, everyone, etc.",
+    "category": "Pronouns",
+    "subcategory": "Pronoun Types",
+    "index": "113-indefinite-pronouns/index.md",
+    "exercises": "113-indefinite-pronouns/exercises.md",
+    "flashcards": "113-indefinite-pronouns/flashcards.json"
+  },
+  {
+    "id": "114-one-ones-substitution",
+    "title": "One / Ones Substitution",
+    "description": "Using one and ones to avoid repetition",
+    "category": "Pronouns",
+    "subcategory": "Pronoun Types",
+    "index": "114-one-ones-substitution/index.md",
+    "exercises": "114-one-ones-substitution/exercises.md",
+    "flashcards": "114-one-ones-substitution/flashcards.json"
+  },
+  {
+    "id": "115-it-empty-subject",
+    "title": "It as Empty Subject",
+    "description": "Using 'it' for weather, time, distance, etc.",
+    "category": "Pronouns",
+    "subcategory": "Pronoun Types",
+    "index": "115-it-empty-subject/index.md",
+    "exercises": "115-it-empty-subject/exercises.md",
+    "flashcards": "115-it-empty-subject/flashcards.json"
   }
 ]

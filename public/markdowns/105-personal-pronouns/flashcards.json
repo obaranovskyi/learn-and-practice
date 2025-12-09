@@ -1,0 +1,8 @@
+[
+  {"question": "What are the subject pronouns?", "answer": "I, you, he, she, it, we, they"},
+  {"question": "'Me and John went' or 'John and I went'?", "answer": "John and I went (subject form)"},
+  {"question": "Can 'they' be singular?", "answer": "Yes, as gender-neutral: 'Someone forgot their key'"},
+  {"question": "Replace 'The car is new': ___ is new.", "answer": "It"},
+  {"question": "Which is always capitalized?", "answer": "I (always capitalized in English)"}
+]
+

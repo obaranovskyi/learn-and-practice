@@ -1,0 +1,8 @@
+[
+  {"question": "Can singular countable nouns stand alone without an article?", "answer": "No, they need a/an, the, or another determiner"},
+  {"question": "How do we make a general statement with plural countable nouns?", "answer": "Use no article: 'Dogs are loyal animals.'"},
+  {"question": "Fill in: I saw ___ movie. ___ movie was great.", "answer": "a, The (first mention → known reference)"},
+  {"question": "What's wrong with 'I need pen'?", "answer": "Singular countable nouns need an article: 'I need a pen'"},
+  {"question": "Article for specific plural nouns?", "answer": "'the' - The books on my desk are new."}
+]
+

@@ -1,0 +1,8 @@
+[
+  {"question": "Article in '___ love is blind'?", "answer": "No article (general concept)"},
+  {"question": "Article in '___ love I feel for her is strong'?", "answer": "'the' (specific love, modified)"},
+  {"question": "Why no article with general abstract nouns?", "answer": "They refer to the concept as a whole, not specific instances"},
+  {"question": "When do abstract nouns take 'the'?", "answer": "When specific or modified: 'the happiness of success'"},
+  {"question": "Article in '___ time heals all wounds'?", "answer": "No article (general truth about time)"}
+]
+

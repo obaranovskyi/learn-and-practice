@@ -1,0 +1,8 @@
+[
+  {"question": "Article needed? '___ music relaxes me.'", "answer": "No article (uncountable noun, general)"},
+  {"question": "Article needed? 'She plays ___ piano.'", "answer": "the (musical instruments use 'the')"},
+  {"question": "Article needed? 'He plays ___ football.'", "answer": "No article (sports use zero article)"},
+  {"question": "Why no article in 'go to bed'?", "answer": "Bed = purpose (sleeping), not the physical object"},
+  {"question": "Article needed? '___ cats are independent.'", "answer": "No article (general statement about all cats)"}
+]
+

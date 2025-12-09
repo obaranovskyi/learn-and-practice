@@ -1,0 +1,8 @@
+[
+  {"question": "'by car' or 'by the car'?", "answer": "by car (transport expressions use no article)"},
+  {"question": "'in end' or 'in the end'?", "answer": "in the end (meaning 'finally')"},
+  {"question": "'at night' or 'at the night'?", "answer": "at night (fixed expression, no article)"},
+  {"question": "'in morning' or 'in the morning'?", "answer": "in the morning (fixed expression with 'the')"},
+  {"question": "'make mistake' or 'make a mistake'?", "answer": "make a mistake (needs 'a')"}
+]
+

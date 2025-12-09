@@ -1,0 +1,8 @@
+[
+  {"question": "How to count 'scissors'?", "answer": "a pair of scissors, two pairs of scissors"},
+  {"question": "'The jeans is/are new'?", "answer": "are (jeans is always plural)"},
+  {"question": "Why are 'trousers' always plural?", "answer": "They have two parts/legs - paired items"},
+  {"question": "'My glasses was/were on the table'?", "answer": "were (glasses is always plural)"},
+  {"question": "Is 'clothes' singular or plural?", "answer": "Always plural: 'The clothes are dirty'"}
+]
+

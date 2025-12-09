@@ -1,0 +1,8 @@
+[
+  {"question": "'The news is/are good'?", "answer": "is (news is singular)"},
+  {"question": "'Mathematics is/are difficult'?", "answer": "is (academic subjects ending in -s are singular)"},
+  {"question": "When is 'statistics' plural?", "answer": "When meaning data/numbers: 'The statistics are misleading'"},
+  {"question": "'The United States is/are...'?", "answer": "is (treated as singular country)"},
+  {"question": "Why is 'economics' singular?", "answer": "It's an academic subject, not multiple 'economic' things"}
+]
+

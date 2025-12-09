@@ -1,0 +1,8 @@
+[
+  {"question": "Possessive of 'students' (plural)?", "answer": "students' (just add apostrophe)"},
+  {"question": "Possessive of 'children'?", "answer": "children's (irregular plural + 's)"},
+  {"question": "'John and Mary book' (shared) - add possessive?", "answer": "John and Mary's book"},
+  {"question": "'John and Mary books' (separate) - add possessive?", "answer": "John's and Mary's books"},
+  {"question": "'s or 'of' for things?", "answer": "'of' - the leg of the table (not the table's leg)"}
+]
+
