@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 97%;
+    --foreground: 220 15% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 10%;
+    --primary: 262 83% 58%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 15% 10%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 10% 40%;
+    --accent: 262 83% 95%;
+    --accent-foreground: 262 83% 40%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 262 83% 58%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+    --card: 224 71% 6%;
+    --card-foreground: 213 31% 91%;
+    --popover: 224 71% 6%;
+    --popover-foreground: 213 31% 91%;
+    --primary: 262 83% 58%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 215 28% 17%;
+    --secondary-foreground: 213 31% 91%;
+    --muted: 215 28% 17%;
+    --muted-foreground: 215 16% 57%;
+    --accent: 262 83% 20%;
+    --accent-foreground: 262 83% 90%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 215 28% 17%;
+    --input: 215 28% 17%;
+    --ring: 262 83% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+.prose {
+  @apply max-w-none;
+}
+
+.prose h1 {
+  @apply text-3xl font-bold mb-6 mt-8 text-foreground;
+}
+
+.prose h2 {
+  @apply text-2xl font-semibold mb-4 mt-6 text-foreground;
+}
+
+.prose h3 {
+  @apply text-xl font-semibold mb-3 mt-5 text-foreground;
+}
+
+.prose p {
+  @apply mb-4 leading-7 text-foreground/90;
+}
+
+.prose ul {
+  @apply list-disc pl-6 mb-4 space-y-2;
+}
+
+.prose ol {
+  @apply list-decimal pl-6 mb-4 space-y-2;
+}
+
+.prose li {
+  @apply text-foreground/90;
+}
+
+.prose code {
+  @apply bg-muted px-1.5 py-0.5 rounded text-sm font-mono text-primary;
+}
+
+.prose pre {
+  @apply bg-muted p-4 rounded-lg overflow-x-auto mb-4;
+}
+
+.prose pre code {
+  @apply bg-transparent p-0 text-foreground;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-primary/50 pl-4 italic text-muted-foreground mb-4;
+}
+
+.prose a {
+  @apply text-primary underline underline-offset-4 hover:text-primary/80;
+}
+
+.prose table {
+  @apply w-full border-collapse mb-4;
+}
+
+.prose th {
+  @apply bg-muted px-4 py-2 text-left font-semibold border border-border;
+}
+
+.prose td {
+  @apply px-4 py-2 border border-border;
+}
+
+.prose hr {
+  @apply my-8 border-border;
+}
+
+.prose img {
+  @apply rounded-lg my-4;
+}
+

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "01-introduction",
+    "title": "Introduction",
+    "description": "Getting started with the learning platform",
+    "index": "01-introduction/index.md",
+    "exercises": "01-introduction/exercises.md"
+  },
+  {
+    "id": "02-basics",
+    "title": "The Basics",
+    "description": "Fundamental concepts and terminology",
+    "index": "02-basics/index.md",
+    "exercises": "02-basics/exercises.md"
+  }
+]
