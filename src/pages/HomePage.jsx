@@ -13,7 +13,17 @@ function HomePage() {
 
   useEffect(() => {
     loadManifest()
-      .then(setTopics)
+      .then(data => {
+        setTopics(data)
+        // Collapse all categories by default
+        const allCollapsed = {}
+        data.forEach(topic => {
+          if (topic.category) {
+            allCollapsed[topic.category] = true
+          }
+        })
+        setCollapsedCategories(allCollapsed)
+      })
       .catch(err => setError(err.message))
       .finally(() => setLoading(false))
   }, [])
